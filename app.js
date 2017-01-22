@@ -36,8 +36,13 @@ if (isProduction) {
 }
 
 if (isProduction) {
+  var cacheDirectory = path.join(__dirname, 'cache');
+  if (!fs.existsSync(cacheDirectory)){
+    fs.mkdirSync(cacheDirectory);
+  }
+
   app.use(compression());
-  app.use(minify({ cache: path.join(__dirname, 'cache') }));
+  app.use(minify({ cache: cacheDirectory }));
 }
 
 app.use(express.static(path.join(__dirname, 'src/vendor')));
