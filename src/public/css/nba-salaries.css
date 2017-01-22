@@ -1,0 +1,26 @@
+.axis path,
+.axis line {
+  display: none;
+}
+
+.grid line {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 1px;
+  stroke-dasharray: 5,5;
+  shape-rendering: crispEdges;
+}
+
+.axis path,
+.grid path {
+  display: none;
+}
+
+.tip {
+  text-align: center;
+  font-size: 10px;
+}
+
+.tip text {
+  color: #ccc;
+}

@@ -1,0 +1,80 @@
+.affix{
+  top: 10px;
+}
+
+th, td { padding: 0 5px 0 5px; }
+td div.color-box {
+  width: 10px;
+  height: 10px;
+}
+
+.song-name {
+  font-size: 13px;
+}
+
+rect {
+  box-sizing: border-box;
+}
+
+path.year-divisor {
+  stroke: #ccc;
+  stroke-width: 1;
+  fill: none;
+}
+
+tspan.year-text {
+  font-size: 25px;
+  fill: #ccc;
+}
+
+tspan.stats-text {
+  font-size: 20px;
+  fill: #999;
+}
+
+.album-am {
+  content: url('/img/wilco-shows/a.m.jpg');
+}
+
+.album-being-there {
+  content: url('/img/wilco-shows/being-there.jpg');
+}
+
+.album-summerteeth {
+  content: url('/img/wilco-shows/summerteeth.jpg');
+}
+
+.album-yankee-hotel-foxtrot {
+  content: url('/img/wilco-shows/yankee-hotel-foxtrot.jpg');
+}
+
+.album-a-ghost-is-born {
+  content: url('/img/wilco-shows/a-ghost-is-born.jpg');
+}
+
+.album-sky-blue-sky {
+  content: url('/img/wilco-shows/sky-blue-sky.jpg');
+}
+
+.album-the-album {
+  content: url('/img/wilco-shows/the-album.jpg');
+}
+
+.album-the-whole-love {
+  content: url('/img/wilco-shows/the-whole-love.jpg');
+}
+
+.album-star-wars {
+  content: url('/img/wilco-shows/star-wars.jpg');
+}
+
+.album-schmilco {
+  content: url('/img/wilco-shows/schmilco.jpg');
+}
+
+/* http://stackoverflow.com/questions/17394854/how-can-i-disable-bootstraps-affix-on-smaller-screens */
+@media (min-width: 768px) {
+  .affix {
+    position: fixed;
+  }
+}

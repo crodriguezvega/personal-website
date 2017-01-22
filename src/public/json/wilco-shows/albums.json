@@ -1,0 +1,866 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "name": "A.M.",
+      "abbrev": "am",
+      "released": "1995-03-28T12:00:00Z",
+      "label": "Reprise",
+      "color": "#e645db",
+      "songs": [
+        {
+          "id": 1,
+          "name": "I Must Be High",
+          "count": 224,
+          "color": "#e617d8"
+        },
+        {
+          "id": 2,
+          "name": "Casino Queen",
+          "count": 322,
+          "color": "#45c0e6"
+        },
+        {
+          "id": 3,
+          "name": "Box Full of Letters",
+          "count": 325,
+          "color": "#93e617"
+        },
+        {
+          "id": 4,
+          "name": "Shouldn't Be Ashamed",
+          "count": 106,
+          "color": "#a27db3"
+        },
+        {
+          "id": 5,
+          "name": "Pick Up the Change",
+          "count": 108,
+          "color": "#597780"
+        },
+        {
+          "id": 6,
+          "name": "I Thought I Held You",
+          "count": 1,
+          "color": "#f9f31b"
+        },
+        {
+          "id": 7,
+          "name": "That's Not the Issue",
+          "count": 117,
+          "color": "#5c17e6"
+        },
+        {
+          "id": 8,
+          "name": "It's Just That Simple",
+          "count": 106,
+          "color": "#f10f0f"
+        },
+        {
+          "id": 9,
+          "name": "Should've Been in Love",
+          "count": 63,
+          "color": "#66ccad"
+        },
+        {
+          "id": 10,
+          "name": "Passenger Side",
+          "count": 394,
+          "color": "#12b39d"
+        },
+        {
+          "id": 11,
+          "name": "Dash 7",
+          "count": 3,
+          "color": "#7f590d"
+        },
+        {
+          "id": 12,
+          "name": "Blue Eyed Soul",
+          "count": 7,
+          "color": "#f89009"
+        },
+        {
+          "id": 13,
+          "name": "Too Far Apart",
+          "count": 91,
+          "color": "#45e695"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Being There",
+      "abbrev": "being-there",
+      "released": "1996-10-29T12:00:00Z",
+      "label": "Reprise",
+      "color": "#a27db3",
+      "songs": [
+        {
+          "id": 14,
+          "name": "Misunderstood",
+          "count": 589,
+          "color": "#e617d8"
+        },
+        {
+          "id": 15,
+          "name": "Far, Far Away",
+          "count": 142,
+          "color": "#45c0e6"
+        },
+        {
+          "id": 16,
+          "name": "Monday",
+          "count": 353,
+          "color": "#93e617"
+        },
+        {
+          "id": 17,
+          "name": "Outtasite (Outta Mind)",
+          "count": 462,
+          "color": "#a27db3"
+        },
+        {
+          "id": 18,
+          "name": "Forget the Flowers",
+          "count": 309,
+          "color": "#597780"
+        },
+        {
+          "id": 19,
+          "name": "Red-Eyed and Blue",
+          "count": 426,
+          "color": "#f9f31b"
+        },
+        {
+          "id": 20,
+          "name": "I Got You (At the End of the Century)",
+          "count": 511,
+          "color": "#5c17e6"
+        },
+        {
+          "id": 21,
+          "name": "What's the World Got in Store",
+          "count": 24,
+          "color": "#f10f0f"
+        },
+        {
+          "id": 22,
+          "name": "Hotel Arizona",
+          "count": 166,
+          "color": "#66ccad"
+        },
+        {
+          "id": 23,
+          "name": "Say You Miss Me",
+          "count": 55,
+          "color": "#12b39d"
+        },
+        {
+          "id": 24,
+          "name": "Sunken Treasure",
+          "count": 277,
+          "color": "#7f590d"
+        },
+        {
+          "id": 25,
+          "name": "Someday Soon",
+          "count": 100,
+          "color": "#f89009"
+        },
+        {
+          "id": 26,
+          "name": "Outta Mind (Outta Sight)",
+          "count": 93,
+          "color": "#45e695"
+        },
+        {
+          "id": 27,
+          "name": "Someone Else's Song",
+          "count": 111,
+          "color": "#e5a117"
+        },
+        {
+          "id": 28,
+          "name": "Kingpin",
+          "count": 345,
+          "color": "#176ae6"
+        },
+        {
+          "id": 29,
+          "name": "(Was I) In Your Dreams",
+          "count": 38,
+          "color": "#cfe6d2"
+        },
+        {
+          "id": 30,
+          "name": "Why Would You Wanna Live",
+          "count": 86,
+          "color": "#807359"
+        },
+        {
+          "id": 31,
+          "name": "The Lonely 1",
+          "count": 98,
+          "color": "#a8091c"
+        },
+        {
+          "id": 32,
+          "name": "Dreamer in My Dreams",
+          "count": 37,
+          "color": "#081a03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Summerteeth",
+      "abbrev": "summerteeth",
+      "released": "1999-03-09T12:00:00Z",
+      "label": "Reprise",
+      "color": "#f10f0f",
+      "songs": [
+        {
+          "id": 33,
+          "name": "Can't Stand It",
+          "count": 155,
+          "color": "#e617d8"
+        },
+        {
+          "id": 34,
+          "name": "She's a Jar",
+          "count": 273,
+          "color": "#45c0e6"
+        },
+        {
+          "id": 35,
+          "name": "A Shot in the Arm",
+          "count": 865,
+          "color": "#93e617"
+        },
+        {
+          "id": 36,
+          "name": "We're Just Friends",
+          "count": 42,
+          "color": "#a27db3"
+        },
+        {
+          "id": 37,
+          "name": "I'm Always in Love",
+          "count": 406,
+          "color": "#597780"
+        },
+        {
+          "id": 38,
+          "name": "Nothing'severgonnastandinmyway(again)",
+          "count": 95,
+          "color": "#f9f31b"
+        },
+        {
+          "id": 39,
+          "name": "Pieholden Suite",
+          "count": 14,
+          "color": "#5c17e6"
+        },
+        {
+          "id": 40,
+          "name": "How to Fight Loneliness",
+          "count": 147,
+          "color": "#f10f0f"
+        },
+        {
+          "id": 41,
+          "name": "Via Chicago",
+          "count": 473,
+          "color": "#66ccad"
+        },
+        {
+          "id": 42,
+          "name": "ELT",
+          "count": 27,
+          "color": "#12b39d"
+        },
+        {
+          "id": 43,
+          "name": "My Darling",
+          "count": 44,
+          "color": "#7f590d"
+        },
+        {
+          "id": 44,
+          "name": "When You Wake Up Feeling Old",
+          "count": 44,
+          "color": "#f89009"
+        },
+        {
+          "id": 45,
+          "name": "Summer Teeth",
+          "count": 75,
+          "color": "#45e695"
+        },
+        {
+          "id": 46,
+          "name": "In a Future Age",
+          "count": 33,
+          "color": "#e5a117"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Yankee Hotel Foxtrot",
+      "abbrev": "yankee-hotel-foxtrot",
+      "released": "2001-09-18T12:00:00Z",
+      "label": "Nonesuch",
+      "color": "#0d801c",
+      "songs": [
+        {
+          "id": 47,
+          "name": "I Am Trying to Break Your Heart",
+          "count": 770,
+          "color": "#e617d8"
+        },
+        {
+          "id": 48,
+          "name": "Kamera",
+          "count": 240,
+          "color": "#45c0e6"
+        },
+        {
+          "id": 49,
+          "name": "Radio Cure",
+          "count": 160,
+          "color": "#93e617"
+        },
+        {
+          "id": 50,
+          "name": "War on War",
+          "count": 569,
+          "color": "#a27db3"
+        },
+        {
+          "id": 51,
+          "name": "Jesus, Etc.",
+          "count": 778,
+          "color": "#597780"
+        },
+        {
+          "id": 52,
+          "name": "Ashes of American Flags",
+          "count": 248,
+          "color": "#f9f31b"
+        },
+        {
+          "id": 53,
+          "name": "Heavy Metal Drummer",
+          "count": 674,
+          "color": "#5c17e6"
+        },
+        {
+          "id": 54,
+          "name": "I'm the Man Who Loves You",
+          "count": 888,
+          "color": "#f10f0f"
+        },
+        {
+          "id": 55,
+          "name": "Pot Kettle Black",
+          "count": 217,
+          "color": "#66ccad"
+        },
+        {
+          "id": 56,
+          "name": "Poor Places",
+          "count": 344,
+          "color": "#12b39d"
+        },
+        {
+          "id": 57,
+          "name": "Reservations",
+          "count": 211,
+          "color": "#7f590d"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "A Ghost Is Born",
+      "abbrev": "a-ghost-is-born",
+      "released": "2004-06-22T12:00:00Z",
+      "label": "Nonesuch",
+      "color": "#dfe617",
+      "songs": [
+        {
+          "id": 58,
+          "name": "At Least That's What You Said",
+          "count": 335,
+          "color": "#e617d8"
+        },
+        {
+          "id": 59,
+          "name": "Hell Is Chrome",
+          "count": 126,
+          "color": "#45c0e6"
+        },
+        {
+          "id": 60,
+          "name": "Spiders (Kidsmoke)",
+          "count": 514,
+          "color": "#93e617"
+        },
+        {
+          "id": 61,
+          "name": "Muzzle of Bees",
+          "count": 225,
+          "color": "#a27db3"
+        },
+        {
+          "id": 62,
+          "name": "Hummingbird",
+          "count": 554,
+          "color": "#597780"
+        },
+        {
+          "id": 63,
+          "name": "Handshake Drugs",
+          "count": 669,
+          "color": "#f9f31b"
+        },
+        {
+          "id": 64,
+          "name": "Wishful Thinking",
+          "count": 48,
+          "color": "#5c17e6"
+        },
+        {
+          "id": 65,
+          "name": "Company in My Back",
+          "count": 208,
+          "color": "#f10f0f"
+        },
+        {
+          "id": 66,
+          "name": "I'm a Wheel",
+          "count": 296,
+          "color": "#66ccad"
+        },
+        {
+          "id": 67,
+          "name": "Theologians",
+          "count": 257,
+          "color": "#12b39d"
+        },
+        {
+          "id": 68,
+          "name": "Less Than You Think",
+          "count": 69,
+          "color": "#7f590d"
+        },
+        {
+          "id": 69,
+          "name": "The Late Greats",
+          "count": 472,
+          "color": "#f89009"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sky Blue Sky",
+      "abbrev": "sky-blue-sky",
+      "released": "2007-05-15T12:00:00Z",
+      "label": "Nonesuch",
+      "color": "#f89009",
+      "songs": [
+        {
+          "id": 70,
+          "name": "Either Way",
+          "count": 62,
+          "color": "#e617d8"
+        },
+        {
+          "id": 71,
+          "name": "You Are My Face",
+          "count": 296,
+          "color": "#45c0e6"
+        },
+        {
+          "id": 72,
+          "name": "Impossible Germany",
+          "count": 614,
+          "color": "#93e617"
+        },
+        {
+          "id": 73,
+          "name": "Sky Blue Sky",
+          "count": 70,
+          "color": "#a27db3"
+        },
+        {
+          "id": 74,
+          "name": "Side With the Seeds",
+          "count": 177,
+          "color": "#597780"
+        },
+        {
+          "id": 75,
+          "name": "Shake It Off",
+          "count": 44,
+          "color": "#f9f31b"
+        },
+        {
+          "id": 76,
+          "name": "Please Be Patient With Me",
+          "count": 1,
+          "color": "#5c17e6"
+        },
+        {
+          "id": 77,
+          "name": "Hate It Here",
+          "count": 308,
+          "color": "#f10f0f"
+        },
+        {
+          "id": 78,
+          "name": "Leave Me (Like You Found Me)",
+          "count": 1,
+          "color": "#66ccad"
+        },
+        {
+          "id": 79,
+          "name": "Walken",
+          "count": 399,
+          "color": "#12b39d"
+        },
+        {
+          "id": 80,
+          "name": "What Light",
+          "count": 36,
+          "color": "#7f590d"
+        },
+        {
+          "id": 81,
+          "name": "On and On and On",
+          "count": 48,
+          "color": "#f89009"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Wilco (The Album)",
+      "abbrev": "the-album",
+      "released": "2009-06-30T12:00:00Z",
+      "label": "Nonesuch",
+      "color": "#176ae6",
+      "songs": [
+        {
+          "id": 82,
+          "name": "Wilco (The Song)",
+          "count": 111,
+          "color": "#e617d8"
+        },
+        {
+          "id": 83,
+          "name": "Deeper Down",
+          "count": 64,
+          "color": "#45c0e6"
+        },
+        {
+          "id": 84,
+          "name": "One Wing",
+          "count": 207,
+          "color": "#93e617"
+        },
+        {
+          "id": 85,
+          "name": "Bull Black Nova",
+          "count": 221,
+          "color": "#a27db3"
+        },
+        {
+          "id": 86,
+          "name": "You and I",
+          "count": 26,
+          "color": "#597780"
+        },
+        {
+          "id": 87,
+          "name": "You Never Know",
+          "count": 100,
+          "color": "#f9f31b"
+        },
+        {
+          "id": 88,
+          "name": "Country Disappeared",
+          "count": 27,
+          "color": "#5c17e6"
+        },
+        {
+          "id": 89,
+          "name": "Solitaire",
+          "count": 3,
+          "color": "#f10f0f"
+        },
+        {
+          "id": 90,
+          "name": "I'll Fight",
+          "count": 80,
+          "color": "#66ccad"
+        },
+        {
+          "id": 91,
+          "name": "Sonny Feeling",
+          "count": 58,
+          "color": "#12b39d"
+        },
+        {
+          "id": 92,
+          "name": "Everlasting Everything",
+          "count": 4,
+          "color": "#7f590d"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "The Whole Love",
+      "abbrev": "the-whole-love",
+      "released": "2011-09-27T12:00:00Z",
+      "label": "dBpm",
+      "color": "#45e6d0",
+      "songs": [
+        {
+          "id": 93,
+          "name": "Art of Almost",
+          "count": 298,
+          "color": "#e617d8"
+        },
+        {
+          "id": 94,
+          "name": "I Might",
+          "count": 172,
+          "color": "#45c0e6"
+        },
+        {
+          "id": 95,
+          "name": "Sunloathe",
+          "count": 0,
+          "color": "#93e617"
+        },
+        {
+          "id": 96,
+          "name": "Dawned on Me",
+          "count": 261,
+          "color": "#a27db3"
+        },
+        {
+          "id": 97,
+          "name": "Black Moon",
+          "count": 42,
+          "color": "#597780"
+        },
+        {
+          "id": 98,
+          "name": "Born Alone",
+          "count": 231,
+          "color": "#f9f31b"
+        },
+        {
+          "id": 99,
+          "name": "Open Mind",
+          "count": 11,
+          "color": "#5c17e6"
+        },
+        {
+          "id": 100,
+          "name": "Capitol City",
+          "count": 52,
+          "color": "#f10f0f"
+        },
+        {
+          "id": 101,
+          "name": "Standing O",
+          "count": 50,
+          "color": "#66ccad"
+        },
+        {
+          "id": 102,
+          "name": "Rising Red Lung",
+          "count": 22,
+          "color": "#12b39d"
+        },
+        {
+          "id": 103,
+          "name": "Whole Love",
+          "count": 179,
+          "color": "#7f590d"
+        },
+        {
+          "id": 104,
+          "name": "One Sunday Morning (Song for Jane Smiley's Boyfriend)",
+          "count": 83,
+          "color": "#f89009"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Star Wars",
+      "abbrev": "star-wars",
+      "released": "2015-07-16T12:00:00Z",
+      "label": "dBpm",
+      "color": "#d4e6cf",
+      "songs": [
+        {
+          "id": 105,
+          "name": "EKG",
+          "count": 54,
+          "color": "#e617d8"
+        },
+        {
+          "id": 106,
+          "name": "More...",
+          "count": 67,
+          "color": "#45c0e6"
+        },
+        {
+          "id": 107,
+          "name": "Random Name Generator",
+          "count": 94,
+          "color": "#93e617"
+        },
+        {
+          "id": 108,
+          "name": "The Joke Explained",
+          "count": 88,
+          "color": "#a27db3"
+        },
+        {
+          "id": 109,
+          "name": "You Satellite",
+          "count": 39,
+          "color": "#597780"
+        },
+        {
+          "id": 110,
+          "name": "Taste the Ceiling",
+          "count": 40,
+          "color": "#f9f31b"
+        },
+        {
+          "id": 111,
+          "name": "Pickled Ginger",
+          "count": 84,
+          "color": "#5c17e6"
+        },
+        {
+          "id": 112,
+          "name": "Where Do I Begin",
+          "count": 49,
+          "color": "#f10f0f"
+        },
+        {
+          "id": 113,
+          "name": "Cold Scope",
+          "count": 0,
+          "color": "#66ccad"
+        },
+        {
+          "id": 114,
+          "name": "King of You",
+          "count": 68,
+          "color": "#12b39d"
+        },
+        {
+          "id": 115,
+          "name": "Magnetized",
+          "count": 40,
+          "color": "#7f590d"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Schmilco",
+      "abbrev": "schmilco",
+      "released": "2016-09-09T12:00:00Z",
+      "label": "dBpm",
+      "color": "#b28936",
+      "songs": [
+        {
+          "id": 116,
+          "name": "Normal American Kids",
+          "count": 26,
+          "color": "#e617d8"
+        },
+        {
+          "id": 117,
+          "name": "If I Ever Was a Child",
+          "count": 42,
+          "color": "#45c0e6"
+        },
+        {
+          "id": 118,
+          "name": "Cry All Day",
+          "count": 34,
+          "color": "#93e617"
+        },
+        {
+          "id": 119,
+          "name": "Common Sense",
+          "count": 1,
+          "color": "#a27db3"
+        },
+        {
+          "id": 120,
+          "name": "Nope",
+          "count": 11,
+          "color": "#597780"
+        },
+        {
+          "id": 121,
+          "name": "Someone to Lose",
+          "count": 39,
+          "color": "#f9f31b"
+        },
+        {
+          "id": 122,
+          "name": "Happiness",
+          "count": 5,
+          "color": "#5c17e6"
+        },
+        {
+          "id": 123,
+          "name": "Quarters",
+          "count": 0,
+          "color": "#f10f0f"
+        },
+        {
+          "id": 124,
+          "name": "Locator",
+          "count": 41,
+          "color": "#66ccad"
+        },
+        {
+          "id": 125,
+          "name": "Shrug and Destroy",
+          "count": 2,
+          "color": "#12b39d"
+        },
+        {
+          "id": 126,
+          "name": "We Aren't the World (Safety Girl)",
+          "count": 34,
+          "color": "#7f590d"
+        },
+        {
+          "id": 127,
+          "name": "Just Say Goodbye",
+          "count": 1,
+          "color": "#f89009"
+        }
+      ]
+    }
+  ]
+}

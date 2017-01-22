@@ -1,0 +1,35 @@
+{% extends '../main-layout.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="/css/visualizations.css">
+<link rel="stylesheet" href="/css/nba-salaries.css">
+{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="header">
+      <h3>NBA Salaries in Season 2013/14</h3>
+      <p class="explanation">
+        Graph of the salaries for each player in the rooster of the NBA teams during season 2013/14.
+        </br>
+        Data: <a href="http://www.spotrac.com/nba">http://www.spotrac.com/nba</a>
+      </p>
+    </div>
+  </div>
+</div>  
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div id="spinner"></div>
+    <div class="graph hide"></div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+  <script src="http://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+  <script src="http://spin.js.org/spin.min.js"></script>
+  <script src="/js/nba-salaries.js"></script>
+{% endblock %}

@@ -1,0 +1,123 @@
+{% extends '../main-layout.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="https://cdn.rawgit.com/Caged/d3-tip/master/examples/example-styles.css">
+<link rel="stylesheet" href="/css/visualizations.css">
+<link rel="stylesheet" href="/css/wilco-shows.css">
+{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="header">
+      <h3>Colors of Wilco's Shows</h3>
+      <p class="explanation">
+        Each song played by Wilco in shows from 1994 colored according to its studio album.
+        </br>
+        Data: <a href="http://www.setlist.fm" target="_blank">http://www.setlist.fm</a>
+        </br>
+        Images: <a href="http://wilcoworld.net" target="_blank">http://wilcoworld.net</a>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div id="spinner"></div>
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 graph-section hide">
+    <section id="affix-element" class="row" data-spy="affix" data-offset-top="254" data-offset-bottom="10">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-12">
+            <form class="form-horizontal">
+              <div class="form-group form-group-sm">
+                <label class="col-xs-3 col-sm-3 col-md-3 col-lg-3 control-label">Select an album:</label>
+                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                  <select class="form-control" data-bind="foreach: options, value: selected">
+                    <!-- ko if: disabled -->
+                      <option disabled>────────────</option>
+                    <!-- /ko -->
+                    <!-- ko if: !disabled -->
+                      <option data-bind="value: id, text: name"></option>
+                    <!-- /ko -->
+                  </select>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="row" data-bind="css: { hide: selected() !== 0 }">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="row" data-bind="foreach: slicedAlbums">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="row" data-bind="foreach: $data">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div data-bind="css: 'album-' + abbrev" class="img-responsive"></div>
+                    <div style="display: block; padding: 5px 0 10px 0">
+                      <div style="display:table-cell; vertical-align:middle; padding-right: 5px">
+                        <div data-bind="style: { backgroundColor: color }" style="width:10px; height:10px"></div>
+                      </div>
+                      <div style="display:table-cell; vertical-align:middle; width:100%" data-bind="text: name">
+                      </div>              
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" data-bind="foreach: albums">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <article class="row" data-bind="attr: { id: 'album-' + id }, css: { hide: $parent.selected() !== id }">
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div data-bind="css: 'album-' + abbrev" class="img-responsive"></div>
+                <h5 data-bind="text: name"></h5>
+                <p data-bind="text: label"></p>
+                <p data-bind="text: formattedReleased"></p>
+              </div>
+              <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                <table style="width: 100%">
+                  <thead style="border-bottom: 1px solid #ccc">
+                    <tr>
+                      <th colspan="1">&nbsp;</th>
+                      <th colspan="1">&nbsp;</th>
+                      <th colspan="1">&nbsp;</th>
+                      <th colspan="1" style="text-align: center"># of times played</th>
+                    </tr>
+                  </thead>
+                  <tbody data-bind="foreach: songs">
+                    <tr>
+                      <td data-bind="text: $index() + 1" style="text-align: right"></td>
+                      <td><div data-bind="style: { backgroundColor: color }" class="color-box"></div></td>
+                      <td data-bind="text: name"></td>
+                      <td data-bind="text: count" style="text-align: center"></td>
+                    </tr>
+                  </tbody>
+                </table>      
+              </div>  
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 graph-section hide">
+    <div class="graph"></div>
+  </div>
+</div>  
+{% endblock %}
+
+{% block scripts %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-min.js" charset="utf-8"></script>
+  <script src="http://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+  <script src="http://spin.js.org/spin.min.js"></script>
+  <script src="/d3-tip/d3-tip.js"></script>
+  <script src="/js/wilco-shows.js"></script>
+{% endblock %}
