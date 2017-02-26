@@ -6,15 +6,28 @@ var swig  = require('swig');
 var logger = require('morgan');
 var express = require('express');
 var favicon = require('serve-favicon');
-var minify = require('express-minify');
 var compression = require('compression');
 
 var routes = require('./src/routes/index');
 var visualizations = require('./src/routes/visualizations');
 
 var isProduction = process.env.NODE_ENV === 'production';
+var baseUrl = isProduction ? 'https://d2gkkp7311831a.cloudfront.net' : '';
 
 var app = express();
+
+// Enforce HTTPS
+if (isProduction) {
+  function enforceHttps(req, res, next) {
+    if (!req.secure && req.get("x-forwarded-proto") !== "https" && isProduction) {
+      res.redirect(301, 'https://' + req.get('host') + req.url);
+    } else {
+      next();
+    }
+  }
+
+  app.use(enforceHttps);
+}
 
 // View engine setup
 app.engine('html', swig.renderFile);
@@ -23,30 +36,28 @@ if (!isProduction) {
 }
 
 app.set('view engine', 'html');
-app.set('views', path.join(__dirname, 'src/views'));
 
 if (isProduction) {
+  app.set('views', path.join(__dirname, 'dist/views'));
+
   app.use(logger('common', {
       skip: function(req, res) { return res.statusCode < 400 },
       stream: fs.createWriteStream(path.join(__dirname, 'morgan.log'), { flags: 'a' })
     })
   );
-} else {
-  app.use(logger('dev'));
-}
-
-if (isProduction) {
-  var cacheDirectory = path.join(__dirname, 'cache');
-  if (!fs.existsSync(cacheDirectory)){
-    fs.mkdirSync(cacheDirectory);
-  }
-
   app.use(compression());
-  app.use(minify({ cache: cacheDirectory }));
+  app.use(express.static(path.join(__dirname, 'dist')));
+} else {
+  app.set('views', path.join(__dirname, 'src/views'));
+
+  app.use(logger('dev'));
+  app.use(express.static(path.join(__dirname, 'src/public')));
 }
 
-app.use(express.static(path.join(__dirname, 'src/vendor')));
-app.use(express.static(path.join(__dirname, 'src/public')));
+app.use(function (req, res, next) {
+  req.assetsUrl = baseUrl;
+  next();
+});
 
 // Routes
 app.use('/', routes);

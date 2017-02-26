@@ -40,7 +40,7 @@ var viewModel = {
 
 ko.applyBindings(viewModel);
 
-$.getJSON('/json/wilco-shows/albums.json', function(data) {
+$.getJSON(ASSETS_URL + '/json/wilco-shows/albums.json', function(data) {
   viewModel.options.push({ id: 0, name: 'All', disabled: false });
   viewModel.options.push({ disabled: true });
 
@@ -62,18 +62,23 @@ $.getJSON('/json/wilco-shows/albums.json', function(data) {
   viewModel.slicedAlbums.push(chunk3);
   viewModel.slicedAlbums.push(chunk4);
 
-  d3.json('/json/wilco-shows/shows.json', function(error, obj) {
-    var data = obj.data;
-  
-    spinner.stop();
-    $spinner.hide();
-    $('.graph-section').removeClass('hide');
+  d3.json(ASSETS_URL + '/json/wilco-shows/shows.json', function(error, obj) {
+    if (error) {
+      console.error(error);
+    }
+    else {
+      var data = obj.data;
+    
+      spinner.stop();
+      $spinner.hide();
+      $('.graph-section').removeClass('hide');
 
-    draw(data);
-    subscribe();
+      draw(data);
+      subscribe();
 
-    viewModel.selected(0); // 'All' option selected   
-    setAffixElementWidth();
+      viewModel.selected(0); // 'All' option selected   
+      setAffixElementWidth();
+    }
   });
 })
 .fail(function(error) {

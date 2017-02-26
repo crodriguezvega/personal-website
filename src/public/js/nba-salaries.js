@@ -39,7 +39,7 @@ var x = d3.scaleLinear().range([0, width]),
 init();
 
 function init() {
-  d3.json('/json/nba-salaries.json', function(error, obj) {
+  d3.json(ASSETS_URL + '/json/nba-salaries.json', function(error, obj) {
     var data = obj.data;
 
     data.forEach(function(team) {
@@ -108,7 +108,7 @@ function draw(data) {
        .append('svg:image')
        .attr('transform', function(team) { return 'translate(0,' + (margin.top + y(team.name) + y.bandwidth() / 4 + padding) + ')'; })
        .attr('xlink:href', function(team) {
-         return '/img/nba-salaries/' + team.name.toLowerCase().replace(/ /g, '-') + '.png';
+         return ASSETS_URL + '/img/nba-salaries/' + team.name.toLowerCase().replace(/ /g, '-') + '.png';
        })
        .attr('width', 22)
        .attr('height', 22);

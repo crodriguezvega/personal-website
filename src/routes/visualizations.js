@@ -10,7 +10,7 @@ router.get('/:id([a-z\-]+)', function(req, res, next) {
   var id = req.params.id.toLowerCase();
   
   if (allowedIds.indexOf(id) >= 0) {
-    res.render('visualizations/' + id, { title: titles[id] });
+    res.render('visualizations/' + id, { title: titles[id], assetsUrl: req.assetsUrl });
   }
   else {
     next();

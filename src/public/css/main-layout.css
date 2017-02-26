@@ -8,7 +8,7 @@ body {
 }
 
 .logo-small {
-  background-image: url('../img/logo-small.png');
+  background-image: url('/img/logo-small.png');
   background-repeat: no-repeat;
   width: 75px;
   height: 56px;  

@@ -1,5 +1,5 @@
 /node_modules
-/cache
+/dist
 npm-debug.log
 morgan.log
 .DS_Store

@@ -3,9 +3,12 @@
 {% block title %}{{ title }}{% endblock %}
 
 {% block css %}
-<link rel="stylesheet" href="https://cdn.rawgit.com/Caged/d3-tip/master/examples/example-styles.css">
-<link rel="stylesheet" href="/css/visualizations.css">
-<link rel="stylesheet" href="/css/wilco-shows.css">
+  <!-- build:[href] /css/visualizations.min.css -->
+  <link rel="stylesheet" href="/css/visualizations.css">
+  <!-- /build -->
+  <!-- build:[href] /css/wilco-shows.min.css -->
+  <link rel="stylesheet" href="/css/wilco-shows.css">
+  <!-- /build -->
 {% endblock %}
 
 {% block content %}
@@ -114,10 +117,17 @@
 {% endblock %}
 
 {% block scripts %}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js" charset="utf-8"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-min.js" charset="utf-8"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.4.3/d3.js"></script>
-  <script src="/d3-tip/d3-tip.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js" integrity="sha256-Gn7MUQono8LUxTfRA0WZzJgTua52Udm1Ifrk5421zkA=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-min.js" integrity="sha256-PX9zWVaICUCeklczWaS9DLBb9uGN7pCkCT0Kyz1elRo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js" integrity="sha256-PieqE0QdEDMppwXrTzSZQr6tWFX3W5KkyRVyF1zN3eg=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js" integrity="sha256-zpVWm3Cr6glhznPw+JDmVMMSx0j/lY4+tC/vK9gALwQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js" integrity="sha256-z0A2CQF8xxCKuOJsn4sJ5HBjxiHHRAfTX8hDF4RSN5s=" crossorigin="anonymous"></script>
+
+  <script>
+    var ASSETS_URL = "{{ assetsUrl }}";
+  </script>
+
+  <!-- build:[src] /js/wilco-shows.min.js -->
   <script src="/js/wilco-shows.js"></script>
+  <!-- /build -->
 {% endblock %}
