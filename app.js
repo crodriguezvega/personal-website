@@ -26,7 +26,7 @@ if (isProduction) {
     }
   }
 
-  app.use(enforceHttps);
+  //app.use(enforceHttps);
 }
 
 // View engine setup
