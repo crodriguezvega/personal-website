@@ -152,15 +152,15 @@ function draw(data) {
   team.selectAll('rect')
       .on('mouseover', function(player) {
         var format = d3.format(',.0f');
+        tip.style('display', null);
+
         tipText.text(player.name + ', $' + format(player.salary)); 
-        var tipTextWidth = tipText.style('width').replace('px', '');
+        var tipTextWidth = tipText.node().getBBox().width;
 
         var xPos = x(player.x) + (x(player.salary) / 2) - (tipTextWidth / 2);
         var yPos = y(player.team) + margin.top + 3;
 
-        tip.style('display', null)
-           .attr('transform', 'translate(' + xPos + ',' + (yPos + padding) + ')');
-
+        tip.attr('transform', 'translate(' + xPos + ',' + (yPos + padding) + ')');
         d3.select(this).attr('stroke', '#666').attr('stroke-width', 1);
       })
       .on('mouseout', function(player) {

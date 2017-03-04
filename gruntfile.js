@@ -33,19 +33,46 @@ module.exports = function(grunt){
     uglify: {
       all: {
         files: {
-          'dist/js/nba-salaries.min.js': ['src/public/js/nba-salaries.js'],
-          'dist/js/wilco-shows.min.js': ['src/public/js/wilco-shows.js']
+          'dist/js/home-layout.min.js': [
+            'src/vendor/jquery/jquery.js',
+            'src/vendor/bootstrap/js/bootstrap.js'
+          ],
+          'dist/js/main-layout.min.js': [
+            'src/vendor/jquery/jquery.js',
+            'src/vendor/bootstrap/js/bootstrap.js',
+            'src/vendor/spin/spin.js',
+            'src/vendor/d3/d3.js',
+            'src/vendor/d3/d3-tip.js'
+          ],
+          'dist/js/nba-salaries.min.js': [
+            'src/public/js/nba-salaries.js'
+          ],
+          'dist/js/wilco-shows.min.js': [
+            'src/public/js/wilco-shows.js',
+            'src/vendor/moment/moment.js',
+            'src/knockout/knockout.js'
+          ]
         }
       }
     },
     cssmin: {
       target: {
         files: {
-          'dist/css/home-layout.min.css': ['src/public/css/home-layout.css'],
-          'dist/css/main-layout.min.css': ['src/public/css/main-layout.css'],
-          'dist/css/visualizations.min.css': ['src/public/css/visualizations.css'],
-          'dist/css/nba-salaries.min.css': ['src/public/css/nba-salaries.css'],
-          'dist/css/wilco-shows.min.css': ['src/public/css/wilco-shows.css'],
+          'dist/css/home-layout.min.css': [
+            '/bootstrap/css/bootstrap.css',
+            'src/public/css/home-layout.css'
+          ],
+          'dist/css/main-layout.min.css': [
+            '/bootstrap/css/bootstrap.css',
+            'src/public/css/main-layout.css',
+            '/css/visualizations.css'
+          ],
+          'dist/css/nba-salaries.min.css': [
+            'src/public/css/nba-salaries.css'
+          ],
+          'dist/css/wilco-shows.min.css': [
+            'src/public/css/wilco-shows.css'
+          ],
         }
       }
     },
@@ -78,11 +105,12 @@ module.exports = function(grunt){
       },
       all: {
         src: [
+          'dist/js/home-layout.min.js',
+          'dist/js/main-layout.min.js',
           'dist/js/nba-salaries.min.js',
           'dist/js/wilco-shows.min.js',
           'dist/css/home-layout.min.css',
           'dist/css/main-layout.min.css',
-          'dist/css/visualizations.min.css',
           'dist/css/nba-salaries.min.css',
           'dist/css/wilco-shows.min.css'
         ],

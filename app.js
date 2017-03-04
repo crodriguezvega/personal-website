@@ -16,19 +16,6 @@ var baseUrl = isProduction ? 'https://d2gkkp7311831a.cloudfront.net' : '';
 
 var app = express();
 
-// Enforce HTTPS
-if (isProduction) {
-  function enforceHttps(req, res, next) {
-    if (!req.secure && req.get("x-forwarded-proto") !== "https" && isProduction) {
-      res.redirect(301, 'https://' + req.get('host') + req.url);
-    } else {
-      next();
-    }
-  }
-
-  //app.use(enforceHttps);
-}
-
 // View engine setup
 app.engine('html', swig.renderFile);
 if (!isProduction) {
@@ -52,6 +39,7 @@ if (isProduction) {
 
   app.use(logger('dev'));
   app.use(express.static(path.join(__dirname, 'src/public')));
+  app.use(express.static(path.join(__dirname, 'src/vendor')));
 }
 
 app.use(function (req, res, next) {

@@ -3,10 +3,7 @@
 {% block title %}{{ title }}{% endblock %}
 
 {% block css %}
-  <!-- build:[href] /css/visualizations.min.css -->
-  <link rel="stylesheet" href="/css/visualizations.css">
-  <!-- /build -->
-  <!-- build:[href] /css/nba-salaries.min.css -->
+  <!-- build:css /css/nba-salaries.min.css -->
   <link rel="stylesheet" href="/css/nba-salaries.css">
   <!-- /build -->
 {% endblock %}
@@ -33,14 +30,11 @@
 {% endblock %}
 
 {% block scripts %}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js" integrity="sha256-PieqE0QdEDMppwXrTzSZQr6tWFX3W5KkyRVyF1zN3eg=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js" integrity="sha256-zpVWm3Cr6glhznPw+JDmVMMSx0j/lY4+tC/vK9gALwQ=" crossorigin="anonymous"></script>
-  
   <script>
     var ASSETS_URL = "{{ assetsUrl }}";
   </script>
 
-  <!-- build:[src] /js/nba-salaries.min.js -->
+  <!-- build:js /js/nba-salaries.min.js -->
   <script src="/js/nba-salaries.js"></script>
   <!-- /build -->
 {% endblock %}

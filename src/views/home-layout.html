@@ -35,14 +35,9 @@
 
     <title>{% block title %}{% endblock %}</title>
     
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <style>
-      body {
-          padding: 20px;
-      }
-    </style>
-    <!-- build:[href] /css/home-layout.min.css -->
-    <link rel="stylesheet" href="/css/home-layout.css">
+    <!-- build:css /css/home-layout.min.css -->
+    <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/home-layout.css" rel="stylesheet">
     <!-- /build -->
 
     {% block css %}
@@ -57,8 +52,10 @@
       {% block content %}{% endblock %}
     </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js" integrity="sha256-1OxYPHYEAB+HIz0f4AdsvZCfFaX4xrTD9d2BtGLXnTI=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- build:js /js/home-layout.min.js -->
+    <script src="/jquery/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.js"></script>
+    <!-- /build -->    
     
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>

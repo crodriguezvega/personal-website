@@ -3,10 +3,7 @@
 {% block title %}{{ title }}{% endblock %}
 
 {% block css %}
-  <!-- build:[href] /css/visualizations.min.css -->
-  <link rel="stylesheet" href="/css/visualizations.css">
-  <!-- /build -->
-  <!-- build:[href] /css/wilco-shows.min.css -->
+  <!-- build:css /css/wilco-shows.min.css -->
   <link rel="stylesheet" href="/css/wilco-shows.css">
   <!-- /build -->
 {% endblock %}
@@ -60,7 +57,7 @@
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="row" data-bind="foreach: $data">
                   <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <div data-bind="css: 'album-' + abbrev" class="img-responsive"></div>
+                    <div data-bind="template: { name: 'album-template', data: abbrev }"></div>
                     <div style="display: block; padding: 5px 0 10px 0">
                       <div style="display:table-cell; vertical-align:middle; padding-right: 5px">
                         <div data-bind="style: { backgroundColor: color }" style="width:10px; height:10px"></div>
@@ -79,7 +76,7 @@
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <article class="row" data-bind="attr: { id: 'album-' + id }, css: { hide: $parent.selected() !== id }">
               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div data-bind="css: 'album-' + abbrev" class="img-responsive"></div>
+                <div data-bind="template: { name: 'album-template', data: abbrev }"></div>
                 <h5 data-bind="text: name"></h5>
                 <p data-bind="text: label" class="explanation"></p>
                 <p data-bind="text: formattedReleased" class="explanation"></p>
@@ -117,17 +114,46 @@
 {% endblock %}
 
 {% block scripts %}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js" integrity="sha256-Gn7MUQono8LUxTfRA0WZzJgTua52Udm1Ifrk5421zkA=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-min.js" integrity="sha256-PX9zWVaICUCeklczWaS9DLBb9uGN7pCkCT0Kyz1elRo=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js" integrity="sha256-PieqE0QdEDMppwXrTzSZQr6tWFX3W5KkyRVyF1zN3eg=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js" integrity="sha256-zpVWm3Cr6glhznPw+JDmVMMSx0j/lY4+tC/vK9gALwQ=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js" integrity="sha256-z0A2CQF8xxCKuOJsn4sJ5HBjxiHHRAfTX8hDF4RSN5s=" crossorigin="anonymous"></script>
+  <script type="text/html" id="album-template">
+    <!-- ko if: $data == 'am' -->
+      <img src="/img/wilco-shows/am.jpg" class="img-responsive"/>
+    <!-- /ko -->
+    <!-- ko if: $data == 'being-there' -->
+      <img src="/img/wilco-shows/being-there.jpg" class="img-responsive"/>
+    <!-- /ko -->
+    <!-- ko if: $data == 'summerteeth' -->
+      <img src="/img/wilco-shows/summerteeth.jpg" class="img-responsive"/>
+    <!-- /ko -->
+    <!-- ko if: $data == 'yankee-hotel-foxtrot' -->
+      <img src="/img/wilco-shows/yankee-hotel-foxtrot.jpg" class="img-responsive"/>
+    <!-- /ko -->
+    <!-- ko if: $data == 'a-ghost-is-born' -->
+      <img src="/img/wilco-shows/a-ghost-is-born.jpg" class="img-responsive"/>
+    <!-- /ko -->
+    <!-- ko if: $data == 'sky-blue-sky' -->
+      <img src="/img/wilco-shows/sky-blue-sky.jpg" class="img-responsive"/>
+    <!-- /ko -->
+    <!-- ko if: $data == 'the-album' -->
+      <img src="/img/wilco-shows/the-album.jpg" class="img-responsive"/>
+    <!-- /ko -->
+    <!-- ko if: $data == 'the-whole-love' -->
+      <img src="/img/wilco-shows/the-whole-love.jpg" class="img-responsive"/>
+    <!-- /ko -->
+    <!-- ko if: $data == 'star-wars' -->
+      <img src="/img/wilco-shows/star-wars.jpg" class="img-responsive"/>
+    <!-- /ko -->
+    <!-- ko if: $data == 'schmilco' -->
+      <img src="/img/wilco-shows/schmilco.jpg" class="img-responsive"/>
+    <!-- /ko -->
+  </script>
 
   <script>
     var ASSETS_URL = "{{ assetsUrl }}";
   </script>
 
-  <!-- build:[src] /js/wilco-shows.min.js -->
+  <!-- build:js /js/wilco-shows.min.js -->
+  <script src="/moment/moment.js"></script>
+  <script src="/knockout/knockout.js"></script>
   <script src="/js/wilco-shows.js"></script>
   <!-- /build -->
 {% endblock %}
