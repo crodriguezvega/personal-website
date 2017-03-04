@@ -246,9 +246,14 @@ function subscribe() {
       }, this);
     }
     else {
-      var album = viewModel.albums().find(function(album) {
-        return album.id === newValue;
-      });
+      var album = null;
+      var albums = viewModel.albums()
+      for (var i = 0; albums.length; i++) {
+        if (albums[i].id === newValue) {
+          album = albums[i];
+          break;
+        }
+      }
 
       if (!album) return;
 
@@ -263,9 +268,14 @@ function subscribe() {
       d3.selectAll('.from-album').style('fill', '#eee');
     }
     else {
-      var album = viewModel.albums().find(function(album) {
-        return album.id === oldValue;
-      });
+      var album = null;
+      var albums = viewModel.albums()
+      for (var i = 0; albums.length; i++) {
+        if (albums[i].id === oldValue) {
+          album = albums[i];
+          break;
+        }
+      }
 
       if (!album) return;
 
