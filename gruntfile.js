@@ -48,9 +48,9 @@ module.exports = function(grunt){
             'src/public/js/nba-salaries.js'
           ],
           'dist/js/wilco-shows.min.js': [
-            'src/public/js/wilco-shows.js',
+            'src/vendor/knockout/knockout.js',
             'src/vendor/moment/moment.js',
-            'src/knockout/knockout.js'
+            'src/public/js/wilco-shows.js'
           ]
         }
       }
@@ -59,13 +59,13 @@ module.exports = function(grunt){
       target: {
         files: {
           'dist/css/home-layout.min.css': [
-            '/bootstrap/css/bootstrap.css',
+            'src/vendor/bootstrap/css/bootstrap.css',
             'src/public/css/home-layout.css'
           ],
           'dist/css/main-layout.min.css': [
-            '/bootstrap/css/bootstrap.css',
+            'src/vendor/bootstrap/css/bootstrap.css',
             'src/public/css/main-layout.css',
-            '/css/visualizations.css'
+            'src/public/css/visualizations.css'
           ],
           'dist/css/nba-salaries.min.css': [
             'src/public/css/nba-salaries.css'
