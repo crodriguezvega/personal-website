@@ -12,6 +12,7 @@ var routes = require('./src/routes/index');
 var visualizations = require('./src/routes/visualizations');
 
 var isProduction = process.env.NODE_ENV === 'production';
+isProduction = true;
 var baseUrl = isProduction ? 'https://d2gkkp7311831a.cloudfront.net' : '';
 
 var app = express();

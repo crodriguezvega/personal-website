@@ -42,7 +42,7 @@ module.exports = function(grunt){
             'src/vendor/bootstrap/js/bootstrap.js',
             'src/vendor/spin/spin.js',
             'src/vendor/d3/d3.js',
-            'src/vendor/d3/d3-tip.js'
+            'src/vendor/d3-tip/d3-tip.js'
           ],
           'dist/js/nba-salaries.min.js': [
             'src/public/js/nba-salaries.js'
