@@ -1,0 +1,2444 @@
+{
+    "type": "setlists",
+    "itemsPerPage": 20,
+    "page": 3,
+    "total": 1978,
+    "setlist": [
+        {
+            "id": "53c90fc9",
+            "versionId": "3504183",
+            "eventDate": "20-06-2015",
+            "lastUpdated": "2017-02-16T05:08:23.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "13d60155",
+                "name": "Heinz Field",
+                "city": {
+                    "id": "5206379",
+                    "name": "Pittsburgh",
+                    "state": "Pennsylvania",
+                    "stateCode": "PA",
+                    "coords": {
+                        "lat": 40.4406248,
+                        "long": -79.9958864
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/heinz-field-pittsburgh-pa-usa-13d60155.html"
+            },
+            "tour": {
+                "name": "Zip Code"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "All Down the Line"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Doom and Gloom"
+                            },
+                            {
+                                "name": "Bitch"
+                            },
+                            {
+                                "name": "Moonlight Mile"
+                            },
+                            {
+                                "name": "Paint It Black",
+                                "info": "by request"
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "Before They Make Me Run",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Happy",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler"
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with The Penn State University Concert Choir"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2015/heinz-field-pittsburgh-pa-53c90fc9.html"
+        },
+        {
+            "id": "7bc926a8",
+            "versionId": "73b78e75",
+            "eventDate": "17-06-2015",
+            "lastUpdated": "2015-06-26T10:47:59.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "13d6d51d",
+                "name": "LP Field",
+                "city": {
+                    "id": "4644585",
+                    "name": "Nashville",
+                    "state": "Tennessee",
+                    "stateCode": "TN",
+                    "coords": {
+                        "lat": 36.1658899,
+                        "long": -86.7844432
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/lp-field-nashville-tn-usa-13d6d51d.html"
+            },
+            "tour": {
+                "name": "Zip Code"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "You Got Me Rocking"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Doom and Gloom"
+                            },
+                            {
+                                "name": "Bitch"
+                            },
+                            {
+                                "name": "Far Away Eyes"
+                            },
+                            {
+                                "name": "Wild Horses"
+                            },
+                            {
+                                "name": "Dead Flowers",
+                                "info": "by request",
+                                "with": {
+                                    "mbid": "6cfd7ffc-824f-4219-8e27-4b9417700f44",
+                                    "tmid": 714837,
+                                    "name": "Brad Paisley",
+                                    "sortName": "Paisley, Brad",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/brad-paisley-1bd6b104.html"
+                                }
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "Before They Make Me Run",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Happy",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler"
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with The Belmont University Chorale"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2015/lp-field-nashville-tn-7bc926a8.html"
+        },
+        {
+            "id": "73c9c619",
+            "versionId": "1bb6d14c",
+            "eventDate": "12-06-2015",
+            "lastUpdated": "2015-06-15T12:16:53.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "1bd621c4",
+                "name": "Citrus Bowl",
+                "city": {
+                    "id": "4167147",
+                    "name": "Orlando",
+                    "state": "Florida",
+                    "stateCode": "FL",
+                    "coords": {
+                        "lat": 28.5383355,
+                        "long": -81.3792365
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/citrus-bowl-orlando-fl-usa-1bd621c4.html"
+            },
+            "tour": {
+                "name": "Zip Code"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "All Down the Line"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Doom and Gloom"
+                            },
+                            {
+                                "name": "Bitch"
+                            },
+                            {
+                                "name": "Moonlight Mile"
+                            },
+                            {
+                                "name": "She's So Cold",
+                                "info": "by request"
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "Before They Make Me Run",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Happy",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler"
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with The University of Central Florida Chamber Singers"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2015/citrus-bowl-orlando-fl-73c9c619.html"
+        },
+        {
+            "id": "7bc9da10",
+            "versionId": "3b6d143",
+            "eventDate": "09-06-2015",
+            "lastUpdated": "2015-06-15T12:17:05.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "3bd7a04c",
+                "name": "Bobby Dodd Stadium",
+                "city": {
+                    "id": "4180439",
+                    "name": "Atlanta",
+                    "state": "Georgia",
+                    "stateCode": "GA",
+                    "coords": {
+                        "lat": 33.7489954,
+                        "long": -84.3879824
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/bobby-dodd-stadium-atlanta-ga-usa-3bd7a04c.html"
+            },
+            "tour": {
+                "name": "Zip Code"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "All Down the Line"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Doom and Gloom"
+                            },
+                            {
+                                "name": "Can't You Hear Me Knocking"
+                            },
+                            {
+                                "name": "You Gotta Move",
+                                "cover": {
+                                    "mbid": "8d2651e1-f539-4492-957a-8b4dc4c5d9b9",
+                                    "name": "Mississippi Fred McDowell",
+                                    "sortName": "McDowell, Mississippi Fred",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mississippi-fred-mcdowell-13d60155.html"
+                                }
+                            },
+                            {
+                                "name": "Some Girls",
+                                "info": "by request, first since 5 June 2007"
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "Before They Make Me Run",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Happy",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler"
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with The Emory University Concert Choir"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2015/bobby-dodd-stadium-atlanta-ga-7bc9da10.html"
+        },
+        {
+            "id": "33c9ecd5",
+            "versionId": "bb6d142",
+            "eventDate": "06-06-2015",
+            "lastUpdated": "2015-06-15T12:17:15.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "6bd43202",
+                "name": "AT&T Stadium",
+                "city": {
+                    "id": "4671240",
+                    "name": "Arlington",
+                    "state": "Texas",
+                    "stateCode": "TX",
+                    "coords": {
+                        "lat": 32.735687,
+                        "long": -97.1080656
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/atandt-stadium-arlington-tx-usa-6bd43202.html"
+            },
+            "tour": {
+                "name": "Zip Code"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "Let's Spend the Night Together"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Doom and Gloom"
+                            },
+                            {
+                                "name": "Bitch"
+                            },
+                            {
+                                "name": "Moonlight Mile"
+                            },
+                            {
+                                "name": "Rocks Off",
+                                "info": "by request, preceded by a snippet of George Strait's \"All My Ex's Live in Texas\""
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "Before They Make Me Run",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Happy",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler"
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with The University of Texas at Arlington A Cappella Choir"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2015/atandt-stadium-arlington-tx-33c9ecd5.html"
+        },
+        {
+            "id": "33c98045",
+            "versionId": "13b6d141",
+            "eventDate": "03-06-2015",
+            "lastUpdated": "2015-06-15T12:17:25.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "23d65c8b",
+                "name": "TCF Bank Stadium",
+                "city": {
+                    "id": "5037649",
+                    "name": "Minneapolis",
+                    "state": "Minnesota",
+                    "stateCode": "MN",
+                    "coords": {
+                        "lat": 44.9799654,
+                        "long": -93.2638361
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/tcf-bank-stadium-minneapolis-mn-usa-23d65c8b.html"
+            },
+            "tour": {
+                "name": "Zip Code"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "All Down the Line"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Doom and Gloom"
+                            },
+                            {
+                                "name": "Bitch",
+                                "info": "by request"
+                            },
+                            {
+                                "name": "Moonlight Mile"
+                            },
+                            {
+                                "name": "Out of Control"
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions / \"Happy Birthday\" to Charlie crowd sing-along"
+                            },
+                            {
+                                "name": "Before They Make Me Run",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Happy",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler"
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter",
+                                "with": {
+                                    "mbid": "b1103b87-3b91-4ec5-9d7b-15c2d1e486af",
+                                    "tmid": 1127233,
+                                    "name": "Grace Potter",
+                                    "sortName": "Potter, Grace",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/grace-potter-3bd4e86c.html"
+                                }
+                            },
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with the VocalEssence choir"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2015/tcf-bank-stadium-minneapolis-mn-33c98045.html"
+        },
+        {
+            "id": "3c9995b",
+            "versionId": "34329c7",
+            "eventDate": "30-05-2015",
+            "lastUpdated": "2017-09-28T05:23:37.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "73d6266d",
+                "name": "Ohio Stadium",
+                "city": {
+                    "id": "4509177",
+                    "name": "Columbus",
+                    "state": "Ohio",
+                    "stateCode": "OH",
+                    "coords": {
+                        "lat": 39.9611755,
+                        "long": -82.9987942
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ohio-stadium-columbus-oh-usa-73d6266d.html"
+            },
+            "tour": {
+                "name": "Zip Code"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "Let's Spend the Night Together"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Doom and Gloom"
+                            },
+                            {
+                                "name": "Bitch"
+                            },
+                            {
+                                "name": "Wild Horses"
+                            },
+                            {
+                                "name": "Paint It Black",
+                                "info": "by request) (preceded by a snippet of The McCoy's \"Hang on Sloopy\""
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "Before They Make Me Run",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Happy",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler"
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with members of the Ohio University Choir"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2015/ohio-stadium-columbus-oh-3c9995b.html"
+        },
+        {
+            "id": "7bc99e20",
+            "versionId": "3371dc11",
+            "eventDate": "27-05-2015",
+            "lastUpdated": "2018-05-04T23:26:50.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "3bd61cdc",
+                "name": "Belly Up Tavern",
+                "city": {
+                    "id": "5396974",
+                    "name": "Solana Beach",
+                    "state": "California",
+                    "stateCode": "CA",
+                    "coords": {
+                        "lat": 32.991155,
+                        "long": -117.2711481
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/belly-up-tavern-solana-beach-ca-usa-3bd61cdc.html"
+            },
+            "tour": {
+                "name": "Zip Code"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "You Got Me Rocking"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "When the Whip Comes Down"
+                            },
+                            {
+                                "name": "I Got the Blues"
+                            },
+                            {
+                                "name": "Crazy Mama",
+                                "info": "first since 6 July 1998"
+                            },
+                            {
+                                "name": "Paint It Black"
+                            },
+                            {
+                                "name": "Midnight Rambler"
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Honky Tonk Women"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "(I Can't Get No) Satisfaction"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "info": "This was a private club show for billionaire Ralph Whitworth who reportedly paid as much as US$2 million for a 90 minute performance. A handful of dedicated hardcore Stones fans did manage to make it inside and were able to report the set list.",
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2015/belly-up-tavern-solana-beach-ca-7bc99e20.html"
+        },
+        {
+            "id": "23c8405f",
+            "versionId": "bb6d146",
+            "eventDate": "24-05-2015",
+            "lastUpdated": "2015-06-15T12:17:50.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "bd63986",
+                "name": "Petco Park",
+                "city": {
+                    "id": "5391811",
+                    "name": "San Diego",
+                    "state": "California",
+                    "stateCode": "CA",
+                    "coords": {
+                        "lat": 32.7153292,
+                        "long": -117.1572551
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/petco-park-san-diego-ca-usa-bd63986.html"
+            },
+            "tour": {
+                "name": "Zip Code"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "All Down the Line"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Doom and Gloom"
+                            },
+                            {
+                                "name": "Bitch",
+                                "with": {
+                                    "mbid": "c733c4e6-22a2-499d-ace7-17b832356aff",
+                                    "tmid": 1583670,
+                                    "name": "Gary Clark Jr.",
+                                    "sortName": "Clark, Gary Jr.",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/gary-clark-jr-13d215ed.html"
+                                }
+                            },
+                            {
+                                "name": "Moonlight Mile"
+                            },
+                            {
+                                "name": "Can't You Hear Me Knocking"
+                            },
+                            {
+                                "name": "Street Fighting Man",
+                                "info": "by request"
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "Slipping Away",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Before They Make Me Run",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler"
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with the Members of the Bob Cole Conservatory Choir"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2015/petco-park-san-diego-ca-23c8405f.html"
+        },
+        {
+            "id": "13c85599",
+            "versionId": "5349f3e9",
+            "eventDate": "20-05-2015",
+            "lastUpdated": "2018-01-28T21:43:01.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "1bd74988",
+                "name": "The Fonda Theatre",
+                "city": {
+                    "id": "5357527",
+                    "name": "Hollywood",
+                    "state": "California",
+                    "stateCode": "CA",
+                    "coords": {
+                        "lat": 34.0983425,
+                        "long": -118.3267434
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/the-fonda-theatre-hollywood-ca-usa-1bd74988.html"
+            },
+            "tour": {
+                "name": "Zip Code"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "When the Whip Comes Down"
+                            },
+                            {
+                                "name": "All Down the Line"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sticky Fingers",
+                        "song": [
+                            {
+                                "name": "Sway"
+                            },
+                            {
+                                "name": "Dead Flowers"
+                            },
+                            {
+                                "name": "Wild Horses"
+                            },
+                            {
+                                "name": "Sister Morphine",
+                                "cover": {
+                                    "mbid": "14ed9dea-1bb0-4743-ba32-39674a71da89",
+                                    "tmid": 837610,
+                                    "name": "Marianne Faithfull",
+                                    "sortName": "Faithfull, Marianne",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/marianne-faithfull-bd6dd92.html"
+                                },
+                                "info": "first since 6 July 1998"
+                            },
+                            {
+                                "name": "You Gotta Move",
+                                "cover": {
+                                    "mbid": "8d2651e1-f539-4492-957a-8b4dc4c5d9b9",
+                                    "name": "Mississippi Fred McDowell",
+                                    "sortName": "McDowell, Mississippi Fred",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mississippi-fred-mcdowell-13d60155.html"
+                                },
+                                "info": "first since 21 Aug 1976"
+                            },
+                            {
+                                "name": "Bitch"
+                            },
+                            {
+                                "name": "Can't You Hear Me Knocking"
+                            },
+                            {
+                                "name": "I Got the Blues",
+                                "info": "first since 8 June 1999"
+                            },
+                            {
+                                "name": "Moonlight Mile",
+                                "info": "first since 20 April 1999"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "name": "Sticky Fingers",
+                        "song": [
+                            {
+                                "name": "Rock Me Baby",
+                                "cover": {
+                                    "mbid": "dcb03ce3-67a5-4eb3-b2d1-2a12d93a38f3",
+                                    "tmid": 769912,
+                                    "name": "B.B. King",
+                                    "sortName": "King, B.B.",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/bb-king-2bd698fe.html"
+                                },
+                                "info": "first since 20 Sept 2003"
+                            },
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "I Can't Turn You Loose",
+                                "cover": {
+                                    "mbid": "82b1f5fd-cd31-41a9-b5d4-7e33f0eb9751",
+                                    "name": "Otis Redding",
+                                    "sortName": "Redding, Otis",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/otis-redding-2bd6b83a.html"
+                                },
+                                "info": "first since 11 Sept 2003"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "info": "Complete concert officially released as \"From the Vault - Sticky Fingers: Live At The Fonda Theater\" on CD, DVD, and Blu-ray in 2017.",
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2015/the-fonda-theatre-hollywood-ca-13c85599.html"
+        },
+        {
+            "id": "13cd9df5",
+            "versionId": "3b875060",
+            "eventDate": "22-11-2014",
+            "lastUpdated": "2015-05-04T15:10:01.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "43d6c743",
+                "name": "Mount Smart Stadium",
+                "city": {
+                    "id": "2193733",
+                    "name": "Auckland",
+                    "state": "Auckland",
+                    "stateCode": "E7",
+                    "coords": {
+                        "lat": -36.8666667,
+                        "long": 174.7666667
+                    },
+                    "country": {
+                        "code": "NZ",
+                        "name": "New Zealand"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/mount-smart-stadium-auckland-new-zealand-43d6c743.html"
+            },
+            "tour": {
+                "name": "14 on Fire"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "You Got Me Rocking"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Like a Rolling Stone",
+                                "cover": {
+                                    "mbid": "72c536dc-7137-4477-a521-567eeb840fa8",
+                                    "tmid": 734972,
+                                    "name": "Bob Dylan",
+                                    "sortName": "Dylan, Bob",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/bob-dylan-1bd6adb8.html"
+                                },
+                                "info": "by request"
+                            },
+                            {
+                                "name": "Doom and Gloom"
+                            },
+                            {
+                                "name": "Out of Control"
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "You Got the Silver",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Before They Make Me Run",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Happy",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with the Auckland members of the New Zealand Youth Choir"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2014/mount-smart-stadium-auckland-new-zealand-13cd9df5.html"
+        },
+        {
+            "id": "53cdbfa1",
+            "versionId": "3350406d",
+            "eventDate": "18-11-2014",
+            "lastUpdated": "2017-02-16T05:08:24.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "5bd61fe4",
+                "name": "Brisbane Entertainment Centre",
+                "city": {
+                    "id": "2174003",
+                    "name": "Brisbane",
+                    "state": "Queensland",
+                    "stateCode": "QLD",
+                    "coords": {
+                        "lat": -27.4679357321901,
+                        "long": 153.028092384338
+                    },
+                    "country": {
+                        "code": "AU",
+                        "name": "Australia"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/brisbane-entertainment-centre-brisbane-australia-5bd61fe4.html"
+            },
+            "tour": {
+                "name": "14 on Fire"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "You Got Me Rocking"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Silver Train",
+                                "info": "by request",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            },
+                            {
+                                "name": "Bitch"
+                            },
+                            {
+                                "name": "Paint It Black"
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "You Got the Silver",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Before They Make Me Run",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Happy",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with Vibrancy, the Choir of the Cuskelly College of Music"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2014/brisbane-entertainment-centre-brisbane-australia-53cdbfa1.html"
+        },
+        {
+            "id": "1bcc4d68",
+            "versionId": "3b50406c",
+            "eventDate": "15-11-2014",
+            "lastUpdated": "2017-02-16T05:08:24.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "7bd6162c",
+                "name": "Hope Estate Winery",
+                "city": {
+                    "id": "2152799",
+                    "name": "Pokolbin",
+                    "state": "New South Wales",
+                    "stateCode": "NSW",
+                    "coords": {
+                        "lat": -32.8,
+                        "long": 151.2833333
+                    },
+                    "country": {
+                        "code": "AU",
+                        "name": "Australia"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/hope-estate-winery-pokolbin-australia-7bd6162c.html"
+            },
+            "tour": {
+                "name": "14 on Fire"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "Let's Spend the Night Together"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Dead Flowers",
+                                "info": "by request"
+                            },
+                            {
+                                "name": "Rocks Off"
+                            },
+                            {
+                                "name": "Paint It Black"
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "You Got the Silver",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Before They Make Me Run",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Can't Be Seen",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with the Sydney Philharmonia Choir"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2014/hope-estate-winery-pokolbin-australia-1bcc4d68.html"
+        },
+        {
+            "id": "3bcc6098",
+            "versionId": "2b504062",
+            "eventDate": "12-11-2014",
+            "lastUpdated": "2017-02-16T05:08:24.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "63d7ded3",
+                "name": "Allphones Arena",
+                "city": {
+                    "id": "2147714",
+                    "name": "Sydney",
+                    "state": "New South Wales",
+                    "stateCode": "NSW",
+                    "coords": {
+                        "lat": -33.8678499639382,
+                        "long": 151.207323074341
+                    },
+                    "country": {
+                        "code": "AU",
+                        "name": "Australia"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/allphones-arena-sydney-australia-63d7ded3.html"
+            },
+            "tour": {
+                "name": "14 on Fire"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "Respectable"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Sweet Virginia",
+                                "info": "by request"
+                            },
+                            {
+                                "name": "Bitch"
+                            },
+                            {
+                                "name": "Paint It Black"
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "You Got the Silver",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Before They Make Me Run",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Happy",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with the Sydney Philharmonia Choir"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "info": "This is the first three song Keith set since 25 Nov 2006 and just the 2nd ever.",
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2014/allphones-arena-sydney-australia-3bcc6098.html"
+        },
+        {
+            "id": "53ec8fc9",
+            "versionId": "53739745",
+            "eventDate": "08-11-2014",
+            "lastUpdated": "2018-04-09T10:32:28.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "23d4b8db",
+                "name": "Hanging Rock",
+                "city": {
+                    "id": "2159230",
+                    "name": "Mount Macedon",
+                    "state": "Victoria",
+                    "stateCode": "VIC",
+                    "coords": {
+                        "lat": -37.3833333,
+                        "long": 144.5833333
+                    },
+                    "country": {
+                        "code": "AU",
+                        "name": "Australia"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/hanging-rock-mount-macedon-australia-23d4b8db.html"
+            },
+            "tour": {
+                "name": "14 on Fire"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2014/hanging-rock-mount-macedon-australia-53ec8fc9.html"
+        },
+        {
+            "id": "13cc0935",
+            "versionId": "73866af1",
+            "lastFmEventId": 3750420,
+            "eventDate": "05-11-2014",
+            "lastUpdated": "2014-11-05T11:49:25.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "bd6cdfe",
+                "name": "Rod Laver Arena",
+                "city": {
+                    "id": "2158177",
+                    "name": "Melbourne",
+                    "state": "Victoria",
+                    "stateCode": "VIC",
+                    "coords": {
+                        "lat": -37.8139965641595,
+                        "long": 144.963322877884
+                    },
+                    "country": {
+                        "code": "AU",
+                        "name": "Australia"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/rod-laver-arena-melbourne-australia-bd6cdfe.html"
+            },
+            "tour": {
+                "name": "14 on Fire"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "You Got Me Rocking"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Wild Horses"
+                            },
+                            {
+                                "name": "Doom and Gloom"
+                            },
+                            {
+                                "name": "Street Fighting Man",
+                                "info": "by request"
+                            },
+                            {
+                                "name": "Out of Control"
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "Before They Make Me Run",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Happy",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with the Consort Of Melbourne"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2014/rod-laver-arena-melbourne-australia-13cc0935.html"
+        },
+        {
+            "id": "13cc1d2d",
+            "versionId": "1b861910",
+            "eventDate": "01-11-2014",
+            "lastUpdated": "2014-11-01T20:31:02.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "73d76aa5",
+                "name": "Perth Arena",
+                "city": {
+                    "id": "2063523",
+                    "name": "Perth",
+                    "state": "Western Australia",
+                    "stateCode": "WA",
+                    "coords": {
+                        "lat": -31.9333333,
+                        "long": 115.8333333
+                    },
+                    "country": {
+                        "code": "AU",
+                        "name": "Australia"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/perth-arena-perth-australia-73d76aa5.html"
+            },
+            "tour": {
+                "name": "14 on Fire"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "You Got Me Rocking"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Loving Cup",
+                                "info": "by request, first since 17 Nov 2006"
+                            },
+                            {
+                                "name": "Doom and Gloom"
+                            },
+                            {
+                                "name": "All Down the Line"
+                            },
+                            {
+                                "name": "Out of Control"
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "Before They Make Me Run",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Happy",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with the Giovanni Consort"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "info": "\"Loving Cup\" makes an extremely rare appearance on the set list for the first time since Atlantic City, 17 Nov 2006. This is only it's 22nd live performance ever dating back to 1969 when it debuted at the free concert in London's Hyde Park. Completely dormant from 1973 to 2001, it was resurrected and played just a handful of times on the Licks and A Bigger Bang tours.",
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2014/perth-arena-perth-australia-13cc1d2d.html"
+        },
+        {
+            "id": "23cc2c3b",
+            "versionId": "4386c733",
+            "eventDate": "29-10-2014",
+            "lastUpdated": "2014-10-29T14:36:11.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "73d76aa5",
+                "name": "Perth Arena",
+                "city": {
+                    "id": "2063523",
+                    "name": "Perth",
+                    "state": "Western Australia",
+                    "stateCode": "WA",
+                    "coords": {
+                        "lat": -31.9333333,
+                        "long": 115.8333333
+                    },
+                    "country": {
+                        "code": "AU",
+                        "name": "Australia"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/perth-arena-perth-australia-73d76aa5.html"
+            },
+            "tour": {
+                "name": "14 on Fire"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Get Off of My Cloud"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Worried About You"
+                            },
+                            {
+                                "name": "Doom and Gloom"
+                            },
+                            {
+                                "name": "Bitch",
+                                "info": "by request"
+                            },
+                            {
+                                "name": "Out of Control"
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "You Got the Silver",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Can't Be Seen",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with the Giovanni Consort Choir"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2014/perth-arena-perth-australia-23cc2c3b.html"
+        },
+        {
+            "id": "3ccc17b",
+            "versionId": "2386fce7",
+            "lastFmEventId": 3740720,
+            "eventDate": "25-10-2014",
+            "lastUpdated": "2014-10-25T22:58:26.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "53d6cf45",
+                "name": "Adelaide Oval",
+                "city": {
+                    "id": "2078025",
+                    "name": "Adelaide",
+                    "state": "South Australia",
+                    "stateCode": "SA",
+                    "coords": {
+                        "lat": -34.9333333,
+                        "long": 138.6
+                    },
+                    "country": {
+                        "code": "AU",
+                        "name": "Australia"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/adelaide-oval-adelaide-australia-53d6cf45.html"
+            },
+            "tour": {
+                "name": "14 on Fire"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "Let's Spend the Night Together"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Wild Horses"
+                            },
+                            {
+                                "name": "Doom and Gloom"
+                            },
+                            {
+                                "name": "Like a Rolling Stone",
+                                "cover": {
+                                    "mbid": "72c536dc-7137-4477-a521-567eeb840fa8",
+                                    "tmid": 734972,
+                                    "name": "Bob Dylan",
+                                    "sortName": "Dylan, Bob",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/bob-dylan-1bd6adb8.html"
+                                },
+                                "info": "by request"
+                            },
+                            {
+                                "name": "Out of Control"
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "Happy",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Can't Be Seen",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want",
+                                "info": "with the Young Adelaide Voices and the Adelaide Chamber Singers"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2014/adelaide-oval-adelaide-australia-3ccc17b.html"
+        },
+        {
+            "id": "43c18bab",
+            "versionId": "b843d4e",
+            "lastFmEventId": 3665686,
+            "eventDate": "03-07-2014",
+            "lastUpdated": "2014-12-02T21:33:42.000+0000",
+            "artist": {
+                "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+                "tmid": 806216,
+                "name": "The Rolling Stones",
+                "sortName": "Rolling Stones, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+            },
+            "venue": {
+                "id": "63d616af",
+                "name": "Festivalpladsen",
+                "city": {
+                    "id": "2614481",
+                    "name": "Roskilde",
+                    "state": "Region Zealand",
+                    "stateCode": "20",
+                    "coords": {
+                        "lat": 55.6415191517441,
+                        "long": 12.0803475379944
+                    },
+                    "country": {
+                        "code": "DK",
+                        "name": "Denmark"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/festivalpladsen-roskilde-denmark-63d616af.html"
+            },
+            "tour": {
+                "name": "14 on Fire"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Jumpin' Jack Flash"
+                            },
+                            {
+                                "name": "Let's Spend the Night Together"
+                            },
+                            {
+                                "name": "It's Only Rock 'n' Roll (But I Like It)"
+                            },
+                            {
+                                "name": "Tumbling Dice"
+                            },
+                            {
+                                "name": "Wild Horses"
+                            },
+                            {
+                                "name": "Doom and Gloom"
+                            },
+                            {
+                                "name": "She's So Cold",
+                                "info": "by request"
+                            },
+                            {
+                                "name": "Out of Control"
+                            },
+                            {
+                                "name": "Honky Tonk Women",
+                                "info": "followed by band introductions"
+                            },
+                            {
+                                "name": "You Got the Silver",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Can't Be Seen",
+                                "info": "Keith Richards on lead vocals"
+                            },
+                            {
+                                "name": "Midnight Rambler",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            },
+                            {
+                                "name": "Miss You"
+                            },
+                            {
+                                "name": "Gimme Shelter"
+                            },
+                            {
+                                "name": "Start Me Up"
+                            },
+                            {
+                                "name": "Sympathy for the Devil"
+                            },
+                            {
+                                "name": "Brown Sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You Can't Always Get What You Want"
+                            },
+                            {
+                                "name": "(I Can't Get No) Satisfaction",
+                                "with": {
+                                    "mbid": "c7a99436-6da3-4190-8ce7-9cd44d62fcd4",
+                                    "tmid": 736264,
+                                    "name": "Mick Taylor",
+                                    "sortName": "Taylor, Mick",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/mick-taylor-4bd69796.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "info": "Final live performance with longtime sax player Bobby Keys who passed away in late 2014",
+            "url": "https://www.setlist.fm/setlist/the-rolling-stones/2014/festivalpladsen-roskilde-denmark-43c18bab.html"
+        },
+        {
+            "id": "43f35f63",
+            "versionId": "1ba7f91c",
+            "eventDate": "04-11-2011",
+            "lastUpdated": "2016-02-19T09:18:31.000+0000",
+            "artist": {
+                "mbid": "9e53f84d-ef44-4c16-9677-5fd4d78cbd7d",
+                "tmid": 773505,
+                "name": "Wilco",
+                "sortName": "Wilco",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/wilco-23d6982b.html"
+            },
+            "venue": {
+                "id": "1bd6413c",
+                "name": "Pabellón das Travesas",
+                "city": {
+                    "id": "3105976",
+                    "name": "Vigo",
+                    "state": "Galicia",
+                    "stateCode": "58",
+                    "coords": {
+                        "lat": 42.2333333,
+                        "long": -8.7166667
+                    },
+                    "country": {
+                        "code": "ES",
+                        "name": "Spain"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/pabellon-das-travesas-vigo-spain-1bd6413c.html"
+            },
+            "tour": {
+                "name": "The Whole Love"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/wilco/2011/pabellon-das-travesas-vigo-spain-43f35f63.html"
+        }
+    ]
+}
