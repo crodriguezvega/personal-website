@@ -39,7 +39,7 @@ var x = d3.scaleLinear().range([0, width]),
 init();
 
 function init() {
-  d3.json(ASSETS_URL + '/json/nba-salaries.json', function(error, obj) {
+  d3.json(ASSETS_URL + '/json/nba-salaries.json').then(function(obj) {
     var data = obj.data;
 
     data.forEach(function(team) {
