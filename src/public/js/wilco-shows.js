@@ -282,7 +282,7 @@ function subscribe() {
   }, null, 'beforeChange');
 }
 
-var $affixElement = $("#affix-element");
+var $affixElement = $('#affix-element');
 
 // https://github.com/twbs/bootstrap/issues/6350#issuecomment-19838255
 function setAffixElementWidth() {

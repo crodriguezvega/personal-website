@@ -38,7 +38,6 @@ body {
   left: 0;
   width: 100%;
   padding: 10px;
-  background: inherit;
   overflow: hidden;
 }
 
@@ -49,7 +48,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: inherit;
 }
 
 .image-link > header::after {
@@ -71,6 +69,10 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+.image-box-office {
+  background-image: url('/img/box-office.png');
 }
 
 .image-wilco-shows {

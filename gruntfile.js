@@ -51,6 +51,12 @@ module.exports = function(grunt){
             'src/vendor/knockout/knockout.js',
             'src/vendor/moment/moment.js',
             'src/public/js/wilco-shows.js'
+          ],
+          'dist/js/box-office.min.js': [
+            'src/vendor/d3-format/d3-format.js',
+            'src/vendor/moment/moment.js',
+            'src/vendor/moment/moment-range.js',
+            'src/public/js/box-office.js'
           ]
         }
       }
@@ -73,6 +79,9 @@ module.exports = function(grunt){
           'dist/css/wilco-shows.min.css': [
             'src/public/css/wilco-shows.css'
           ],
+          'dist/css/box-office.min.css': [
+            'src/public/css/box-office.css'
+          ]
         }
       }
     },
@@ -95,7 +104,8 @@ module.exports = function(grunt){
           'dist/views/home-layout.html': ['dist/views/home-layout.html'],
           'dist/views/main-layout.html': ['dist/views/main-layout.html'],
           'dist/views/visualizations/nba-salaries.html': ['dist/views/visualizations/nba-salaries.html'],
-          'dist/views/visualizations/wilco-shows.html': ['dist/views/visualizations/wilco-shows.html']
+          'dist/views/visualizations/wilco-shows.html': ['dist/views/visualizations/wilco-shows.html'],
+          'dist/views/visualizations/box-office.html': ['dist/views/visualizations/box-office.html']
         }
       },
     },
@@ -109,16 +119,19 @@ module.exports = function(grunt){
           'dist/js/main-layout.min.js',
           'dist/js/nba-salaries.min.js',
           'dist/js/wilco-shows.min.js',
+          'dist/js/box-office.min.js',
           'dist/css/home-layout.min.css',
           'dist/css/main-layout.min.css',
           'dist/css/nba-salaries.min.css',
-          'dist/css/wilco-shows.min.css'
+          'dist/css/wilco-shows.min.css',
+          'dist/css/box-office.min.css'
         ],
         dest: [
           'dist/views/home-layout.html',
           'dist/views/main-layout.html',
           'dist/views/visualizations/nba-salaries.html',
-          'dist/views/visualizations/wilco-shows.html'
+          'dist/views/visualizations/wilco-shows.html',
+          'dist/views/visualizations/box-office.html'
         ]
       },
     },

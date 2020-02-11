@@ -1,0 +1,50 @@
+{% extends '../main-layout.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block css %}
+  <!-- build:css /css/nba-salaries.min.css -->
+  <link rel="stylesheet" href="/css/box-office.css">
+  <!-- /build -->
+{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="header">
+      <h3>Weekend US box office from 1979 till 2019</h3>
+      <p class="explanation">
+        Weekend box office in the US from 1979 till 2019.
+        </br>
+        Data: <a href="https://www.boxofficemojo.com" target="_blank">https://www.boxofficemojo.com</a>
+      </p>
+    </div>
+  </div>
+</div>  
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div id="spinner"></div>
+    <div class="row">
+      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+        <div class="graph hide"></div>
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <div class="legend hide"></div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+  <script>
+    var ASSETS_URL = "{{ assetsUrl }}";
+  </script>
+
+  <!-- build:js /js/box-office.min.js -->
+  <script src="/d3-format/d3-format.js"></script>
+  <script src="/moment/moment.js"></script>
+  <script src="/moment-range/moment-range.js"></script>
+  <script src="/js/box-office.js"></script>
+  <!-- /build -->
+{% endblock %}

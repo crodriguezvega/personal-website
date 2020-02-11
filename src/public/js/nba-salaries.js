@@ -58,6 +58,9 @@ function init() {
     spinner.stop();
     $('#spinner').hide();
     $('.graph').removeClass('hide');
+  })
+  .catch(function(error) {
+    console.error(error);
   });
 }  
 
