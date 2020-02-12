@@ -1,5 +1,3 @@
-window['moment-range'].extendMoment(moment);
-as
 var opts = {
   lines: 10 // The number of lines to draw
 , length: 25 // The length of each line
@@ -26,13 +24,14 @@ var opts = {
 var $spinner = document.getElementById('spinner'),
     spinner = new Spinner(opts).spin($spinner);
 
-var padding = 10; // padding needed after migration to d3.v4
+var padding = 10, // padding needed after migration to d3.v4
+    secondsInOneDay = 86400;
 
 var margin = {top: 0, right: 1, bottom: 20, left: 40},
     width = 900 - margin.left - margin.right,
     height = 800 - margin.top - margin.bottom;
 
-var x = d3.scaleLinear().domain([0, 31536000]).range([1, width]),
+var x = d3.scaleLinear().domain([0, 31536000 + secondsInOneDay]).range([1, width]),
     y = d3.scaleLinear().domain([1979, 2019]).range([height - padding, padding]),
     color = d3.scaleOrdinal().range([
               '#f0ff93',
@@ -200,9 +199,16 @@ function draw(data) {
              if (begin.year() < weekend.year) {
               begin = moment({ year: weekend.year, month: 0, day: 1 });
              }
+              
+             // correction for non-leap years
+             var needsCorrection = false;
+             if (!moment([weekend.year]).isLeapYear()) {
+               var mar1 = moment({ year: weekend.year, month: 2, day: 1, hour: 0, minute: 0, second: 0 });
+               needsCorrection = begin.isSameOrAfter(mar1);
+             }
 
              var secondsSinceBeginingOfYear = begin.diff(beginingOfYear, 'seconds');
-             return x(secondsSinceBeginingOfYear); 
+             return x(secondsSinceBeginingOfYear + (needsCorrection ? secondsInOneDay : 0)); 
            })
            .attr('width', function(weekend) { 
              var begin = moment(weekend.from),
@@ -218,16 +224,13 @@ function draw(data) {
 
              // correction for non-leap years
              var needsCorrection = false;
-             if (!begin.isLeapYear()) {
-               var feb28 = moment({ year: weekend.year, month: 1, day: 28 })
-                   mar2 = moment({ year: weekend.year, month: 2, day: 1 })
-                   weekendRange = moment.range(begin, end);
-                   betweenMonthsRange = moment.range(feb28, mar2);
-               needsCorrection = betweenMonthsRange.overlaps(weekendRange);
+             if (!moment([weekend.year]).isLeapYear()) {
+               var feb28 = moment({ year: weekend.year, month: 1, day: 28, hour: 0, minute: 0, second: 0 });
+               needsCorrection = (begin.isSameOrBefore(feb28) && end.isSameOrAfter(feb28));
              }
 
              var secondsInTheWeekend = end.diff(begin, 'seconds');
-             return x(secondsInTheWeekend + (needsCorrection ? 86400 : 0)); 
+             return x(secondsInTheWeekend + (needsCorrection ? secondsInOneDay : 0)); 
            })
            .on('mouseover', function(weekend) {
              tip.show(weekend);
@@ -237,7 +240,12 @@ function draw(data) {
            });
 
   boxOffice.selectAll('.between-boxoffice')
-           .data(function(yearBoxOffice) { return yearBoxOffice.betweenBoxOffices; })
+           .data(function(yearBoxOffice) { 
+             yearBoxOffice.betweenBoxOffices.forEach(function(between) {
+              between.year = yearBoxOffice.year;
+             });
+             return yearBoxOffice.betweenBoxOffices; 
+           })
            .enter()
            .append('rect')
            .attr('fill', '#eee')
@@ -245,9 +253,21 @@ function draw(data) {
            .attr('height', 20)
            .attr('x', function(between) { 
              var begin = moment(between.from),
-                 beginingOfYear = moment({ year: begin.year(), month: 0, day: 1 }),
-                 secondsSinceBeginingOfYear = begin.diff(beginingOfYear, 'seconds');
-             return x(secondsSinceBeginingOfYear); 
+                 beginingOfYear = moment({ year: begin.year(), month: 0, day: 1 });
+
+             console.log(between.year);
+              // correction for non-leap years
+             var needsCorrection = false;
+             if (!moment([between.year]).isLeapYear()) {
+               var mar1 = moment({ year: between.year, month: 2, day: 1, hour: 0, minute: 0, second: 0 });
+               needsCorrection = begin.isSameOrAfter(mar1);
+               console.log(mar1);
+               console.log(begin);
+               console.log(needsCorrection);
+             }
+
+             var secondsSinceBeginingOfYear = begin.diff(beginingOfYear, 'seconds');
+             return x(secondsSinceBeginingOfYear + (needsCorrection ? secondsInOneDay : 0)); 
            })
            .attr('width', function(between) { 
              var begin = moment(between.from),
@@ -256,15 +276,12 @@ function draw(data) {
 
              // correction for non-leap years
              var needsCorrection = false;
-             if (!begin.isLeapYear()) {
-               var feb28 = moment({ year: begin.year(), month: 1, day: 28 })
-                   mar2 = moment({ year: begin.year(), month: 2, day: 1 })
-                   betweenRange = moment.range(begin, end);
-                   betweenMonthsRange = moment.range(feb28, mar2);
-               needsCorrection = betweenMonthsRange.overlaps(betweenRange);
+             if (!moment([between.year]).isLeapYear()) {
+               var feb28 = moment({ year: between.year, month: 1, day: 28, hour: 0, minute: 0, second: 0 });
+               needsCorrection = (begin.isSameOrBefore(feb28) && end.isSameOrAfter(feb28));
              }
 
-             return x(secondsInBetween + (needsCorrection ? 86400 : 0)); 
+             return x(secondsInBetween + (needsCorrection ? secondsInOneDay : 0)); 
            });
 
   var svgLegend = d3.select(".legend")

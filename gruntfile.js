@@ -55,7 +55,6 @@ module.exports = function(grunt){
           'dist/js/box-office.min.js': [
             'src/vendor/d3-format/d3-format.js',
             'src/vendor/moment/moment.js',
-            'src/vendor/moment/moment-range.js',
             'src/public/js/box-office.js'
           ]
         }
