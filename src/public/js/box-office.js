@@ -255,15 +255,11 @@ function draw(data) {
              var begin = moment(between.from),
                  beginingOfYear = moment({ year: begin.year(), month: 0, day: 1 });
 
-             console.log(between.year);
               // correction for non-leap years
              var needsCorrection = false;
              if (!moment([between.year]).isLeapYear()) {
                var mar1 = moment({ year: between.year, month: 2, day: 1, hour: 0, minute: 0, second: 0 });
                needsCorrection = begin.isSameOrAfter(mar1);
-               console.log(mar1);
-               console.log(begin);
-               console.log(needsCorrection);
              }
 
              var secondsSinceBeginingOfYear = begin.diff(beginingOfYear, 'seconds');
