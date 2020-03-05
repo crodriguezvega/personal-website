@@ -1,10 +1,10 @@
-﻿#I "../packages/FSharp.Data.2.4.6/lib/net45"
-#I "../packages/Newtonsoft.Json.11.0.2/lib/net45"
+﻿#I "/Users/carlosrodriguez/Documents/Code/Data.Processor/packages/FSharp.Data.3.3.2/lib/net45"
+#I "/Users/carlosrodriguez/Documents/Code/Data.Processor/packages/Newtonsoft.Json.12.0.3/lib/net45"
 
 #r "FSharp.Data.dll"
 #r "Newtonsoft.Json.dll"
 
-#load "OptionConverter.fs"
+#load "/Users/carlosrodriguez/Documents/Code/Data.Processor/src/OptionConverter.fs"
 
 open System.IO
 open FSharp.Data
@@ -146,9 +146,9 @@ let getStudioSong (name: string) =
   | _ when "Just Say Goodbye".ToLower().Contains(lcName)                                      -> Some({ name = "Just Say Goodbye"; songId = 127; album = "Schmilco"; albumId = 10 })
   | _ -> None
 
-type SetlistFm = JsonProvider<"../data/fm-setlists-sample.json">
+type SetlistFm = JsonProvider<"/Users/carlosrodriguez/Documents/Code/Data.Processor/data/wilcosetlists/fm-setlists-sample.json">
 let doc = SetlistFm.GetSample()
-let apiKey = "<api key>"
+let apiKey = "47e84ee4-22a1-4c7e-8260-70c70b7ecbc0"
 let baseUrl = "https://api.setlist.fm/rest/1.0/artist/9e53f84d-ef44-4c16-9677-5fd4d78cbd7d/setlists"
 
 let total = float doc.Total
@@ -167,23 +167,23 @@ let buildSongRecord song =
   | Some(studioSong) -> { name = studioSong.name; songId = Some(studioSong.songId); album = Some(studioSong.album); albumId = Some(studioSong.albumId) } : Song
   | None -> { name = song; songId = None; album = None; albumId = None } : Song
 
-let mapStateCode (fmCity: JsonProvider<"../data/fm-setlists-sample.json">.City) = 
+let mapStateCode (fmCity: JsonProvider<"/Users/carlosrodriguez/Documents/Code/Data.Processor/data/wilcosetlists/fm-setlists-sample.json">.City) = 
   if fmCity.Country.Code = "US" then
     fmCity.StateCode.String
   else
     None
 
-let mapVenue (fmVenue: JsonProvider<"../data/fm-setlists-sample.json">.Venue) =
+let mapVenue (fmVenue: JsonProvider<"/Users/carlosrodriguez/Documents/Code/Data.Processor/data/wilcosetlists/fm-setlists-sample.json">.Venue) =
   let stateCode = mapStateCode fmVenue.City
   { name = fmVenue.Name; city = fmVenue.City.Name; state = stateCode; country = fmVenue.City.Country.Name }
 
-let mapSong (fmSong: JsonProvider<"../data/fm-setlists-sample.json">.Song) =
+let mapSong (fmSong: JsonProvider<"/Users/carlosrodriguez/Documents/Code/Data.Processor/data/wilcosetlists/fm-setlists-sample.json">.Song) =
   buildSongRecord fmSong.Name
 
-let mapSet (fmSet: JsonProvider<"../data/fm-setlists-sample.json">.Set) =
+let mapSet (fmSet: JsonProvider<"/Users/carlosrodriguez/Documents/Code/Data.Processor/data/wilcosetlists/fm-setlists-sample.json">.Set) =
   fmSet.Song |> List.ofArray |> List.map mapSong
 
-let mapSetlist (fmSetlist: JsonProvider<"../data/fm-setlists-sample.json">.Setlist) =
+let mapSetlist (fmSetlist: JsonProvider<"/Users/carlosrodriguez/Documents/Code/Data.Processor/data/wilcosetlists/fm-setlists-sample.json">.Setlist) =
   let date = match fmSetlist.EventDate.String with
              | None -> null
              | Some(str) ->
@@ -213,7 +213,7 @@ let allSetlists = getSetlists [1 .. 68] //68
 let allSongs = allSetlists |> List.collect (fun x -> x.songs)
 let songsFromStudioAlbums = allSongs |> List.filter (fun x -> Option.isSome x.albumId && Option.isSome x.songId)
 let maximumCountSongsInShow = allSetlists |> List.map (fun x -> x.songs.Length)
-                                             |> List.max 
+                                          |> List.max 
 printfn "Total number of songs: %d" allSongs.Length    
 printfn "Number of songs from studio albums: %d" songsFromStudioAlbums.Length
 printfn "Maximum count of songs in one show: %d" maximumCountSongsInShow
@@ -225,7 +225,7 @@ let songStatistics = allSongs |> List.sortBy (fun x -> x.songId)
                               |> List.groupBy (fun x -> x.name)
                               |> List.map (fun x -> (fst x, (snd x).Length))
 let statisticsLines = "Song statistics:" :: (songStatistics |> List.map (fun x -> sprintf "%s %d" (fst x) (snd x)))
-let statisticsPath = Path.Combine(__SOURCE_DIRECTORY__, "..", "data/statistics.txt")
+let statisticsPath = Path.Combine(__SOURCE_DIRECTORY__, "..", "data/wilcosetlists/statistics.txt")
 File.WriteAllLines(statisticsPath, statisticsLines)   
 
 let distinctSongs = allSongs |> List.distinctBy (fun x -> x.name)
@@ -238,7 +238,7 @@ printfn "Number of empty setlists: %d" emptySetlists.Length
 let unAssignedSongs = distinctSongs |> List.filter (fun x -> Option.isNone x.albumId && Option.isNone x.songId)
                                     |> List.map (fun x -> x.name)
 let unAssignedSongsLines = "Unassigned songs:" :: (unAssignedSongs |> List.map (fun x -> sprintf "%s" x))
-let unAssignedSongsPath = Path.Combine(__SOURCE_DIRECTORY__, "..", "data/unassigned-songs.txt")
+let unAssignedSongsPath = Path.Combine(__SOURCE_DIRECTORY__, "..", "data/wilcosetlists/unassigned-songs.txt")
 File.WriteAllLines(unAssignedSongsPath, unAssignedSongsLines)   
 
 let setlists = allSetlists |> List.filter (fun x -> not x.songs.IsEmpty)
@@ -265,5 +265,5 @@ jsonSerializer.Formatting <- Formatting.Indented
 jsonSerializer.NullValueHandling <- NullValueHandling.Ignore
 jsonSerializer.Serialize(stringWriter, data)
 
-let setlistsPath = Path.Combine(__SOURCE_DIRECTORY__, "..", "data/wilco-setlists.json")
+let setlistsPath = Path.Combine(__SOURCE_DIRECTORY__, "..", "data/wilcosetlists/wilco-setlists.json")
 File.WriteAllText(setlistsPath, stringWriter.ToString()) 
