@@ -116,13 +116,18 @@ function draw(data) {
   // x axis
   svgGraph.append('g')
           .attr('class', 'x axis')
-          .attr('transform', 'translate(0,' + height + ')')
-          .call(xAxis);
+          .attr('transform', 'translate(0,' + (height - 5) + ')')
+          .call(xAxis)
+          .call(function(g) { g.select('.domain').remove(); })
+          .call(function(g) { g.selectAll(".tick line").remove(); });
 
   // y axis
   svgGraph.append('g')
           .attr('class', 'y axis')
-          .call(yAxis);
+          .attr('transform', 'translate(5,0)')
+          .call(yAxis)
+          .call(function(g) { g.select('.domain').remove(); })
+          .call(function(g) { g.selectAll(".tick line").remove(); });
 
   var tip = d3.tip()
               .attr('class', 'd3-tip')
