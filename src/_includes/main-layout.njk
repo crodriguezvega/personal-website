@@ -34,10 +34,11 @@
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
     <title>{% block title %}{% endblock %}</title>
-    
-    <!-- build:css /css/home-layout.min.css -->
+
+    <!-- build:css /css/main-layout.min.css -->
     <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="/css/home-layout.css" rel="stylesheet">
+    <link href="/css/main-layout.css" rel="stylesheet" >
+    <link href="/css/visualizations.css" rel="stylesheet" >
     <!-- /build -->
 
     {% block css %}
@@ -48,15 +49,19 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    {% include "partials/navigation.njk" %}
     <section class="container">
       {% block content %}{% endblock %}
     </section>
 
-    <!-- build:js /js/home-layout.min.js -->
+    <!-- build:js /js/main-layout.min.js -->
     <script src="/jquery/jquery.js"></script>
     <script src="/bootstrap/js/bootstrap.js"></script>
-    <!-- /build -->    
-    
+    <script src="/spin/spin.js"></script>
+    <script src="/d3/d3.js"></script>
+    <script src="/d3-tip/d3-tip.js"></script>
+    <!-- /build -->
+
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -66,7 +71,7 @@
       ga('create', 'UA-90731521-1', 'auto');
       ga('send', 'pageview');
     </script>
-    
+
     {% block scripts %}
     {% endblock %}
   </body>

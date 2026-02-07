@@ -35,10 +35,9 @@
 
     <title>{% block title %}{% endblock %}</title>
 
-    <!-- build:css /css/main-layout.min.css -->
+    <!-- build:css /css/home-layout.min.css -->
     <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="/css/main-layout.css" rel="stylesheet" >
-    <link href="/css/visualizations.css" rel="stylesheet" >
+    <link href="/css/home-layout.css" rel="stylesheet">
     <!-- /build -->
 
     {% block css %}
@@ -48,19 +47,15 @@
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
-    {% include './partials/navigation.html' %}
+
     <section class="container">
       {% block content %}{% endblock %}
     </section>
 
-    <!-- build:js /js/main-layout.min.js -->
+    <!-- build:js /js/home-layout.min.js -->
     <script src="/jquery/jquery.js"></script>
     <script src="/bootstrap/js/bootstrap.js"></script>
-    <script src="/spin/spin.js"></script>
-    <script src="/d3/d3.js"></script>
-    <script src="/d3-tip/d3-tip.js"></script>
-    <!-- /build -->    
+    <!-- /build -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>

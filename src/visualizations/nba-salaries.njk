@@ -1,4 +1,8 @@
-{% extends '../main-layout.html' %}
+---
+title: NBA Salaries
+permalink: /visualizations/nba-salaries/index.html
+---
+{% extends "main-layout.njk" %}
 
 {% block title %}{{ title }}{% endblock %}
 
@@ -20,7 +24,7 @@
       </p>
     </div>
   </div>
-</div>  
+</div>
 <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div id="spinner"></div>
@@ -31,7 +35,7 @@
 
 {% block scripts %}
   <script>
-    var ASSETS_URL = "{{ assetsUrl }}";
+    var ASSETS_URL = "{{ site.assetsUrl }}";
   </script>
 
   <!-- build:js /js/nba-salaries.min.js -->

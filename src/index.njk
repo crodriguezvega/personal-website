@@ -1,4 +1,8 @@
-{% extends 'home-layout.html' %}
+---
+title: Carlos Rodriguez-Vega
+permalink: /index.html
+---
+{% extends "home-layout.njk" %}
 
 {% block title %}{{ title }}{% endblock %}
 
@@ -9,40 +13,40 @@
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <img src="/img/logo.png" class="img-responsive">
       </div>
-    </div>  
+    </div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="divider"></div>
-      </div> 
+      </div>
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <ul class="list-unstyled" style="margin: 0">
           <li><a href="https://www.linkedin.com/in/carlos-rodriguez-vega" target="_blank">LinkedIn</a></li>
-          <li><a href="https://github.com/crodriguezvega" target="_blank">GitHub</a></li>     
+          <li><a href="https://github.com/crodriguezvega" target="_blank">GitHub</a></li>
           <li><a href="https://www.behance.net/crodvegf13a" target="_blank">Behance</a></li>
           <li><a href="https://www.instagram.com/gato_murr" target="_blank">Instagram</a></li>
-          <li><a href="https://www.flickr.com/photos/tomcatmurr/" target="_blank">Flickr</a></li>  
+          <li><a href="https://www.flickr.com/photos/tomcatmurr/" target="_blank">Flickr</a></li>
         </ul>
-      </div> 
+      </div>
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="divider"></div>
-      </div> 
+      </div>
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <p>&copy; {{ year }}<p>
-      </div> 
+        <p>&copy; {{ site.year }}<p>
+      </div>
     </div>
   </div>
   <div class="col-md-10">
     <div class="row" style="margin-bottom: 10px">
       <div class="col-md-9">
-        <a href="/visualizations/box-office">
+        <a href="/visualizations/box-office/">
           <div class="img-responsive image-link image-box-office" alt="Visualization of highest-grossing weekend US box office since 1979">
-            <header> 
+            <header>
               <h4>Highest-grossing weekend US box office</h4>
             </header>
           </div>
@@ -51,9 +55,9 @@
     </div>
     <div class="row" style="margin-bottom: 10px">
       <div class="col-md-9">
-        <a href="/visualizations/wilco-shows">
+        <a href="/visualizations/wilco-shows/">
           <div class="img-responsive image-link image-wilco-shows" alt="Visualization of Wilco's shows since 1994">
-            <header> 
+            <header>
               <h4>Colors of Wilco's shows</h4>
             </header>
           </div>
@@ -62,9 +66,9 @@
     </div>
     <div class="row">
       <div class="col-md-9">
-        <a href="/visualizations/nba-salaries">
+        <a href="/visualizations/nba-salaries/">
           <div class="img-responsive image-link image-nba-salaries" alt="Visualization of NBA players' salaries in season 2013/14">
-            <header> 
+            <header>
               <h4>NBA players' salaries</h4>
             </header>
           </div>

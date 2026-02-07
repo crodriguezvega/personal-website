@@ -1,32 +1,23 @@
 {
-  "name": "carlos-personal-website",
+  "name": "carlos-personal-website-static",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
-    "start": "node ./bin/www",
-    "build": "./node_modules/grunt-cli/bin/grunt assets",
-    "debug": "DEBUG=carlos-personal-website:* & npm start",
-    "postinstall": "./node_modules/grunt-cli/bin/grunt assets"
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "ELEVENTY_ENV=production npx @11ty/eleventy && npx grunt assets"
   },
   "dependencies": {
-    "compression": "^1.6.2",
-    "debug": "^4.1.1",
-    "express": "^4.22.1",
+    "@11ty/eleventy": "^3.0.0",
     "grunt": "^1.0.1",
-    "grunt-cdn": "^0.6.5",
     "grunt-cli": "^1.2.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-contrib-uglify": "^4.0.1",
-    "grunt-encode-css-images": "^0.1.1",
-    "grunt-hashres": "^0.4.1",
+    "grunt-cdn": "^0.6.3",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-hashres": "^0.4.0",
     "grunt-json-minify": "^1.1.0",
-    "grunt-processhtml": "^0.4.1",
-    "morgan": "^1.9.1",
-    "serve-favicon": "^2.5.0",
-    "swig": "~1.4.2"
-  },
-  "engines": {
-    "node": "9.5.0"
+    "grunt-processhtml": "^0.4.1"
   }
 }

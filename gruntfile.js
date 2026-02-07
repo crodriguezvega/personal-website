@@ -1,13 +1,11 @@
 module.exports = function(grunt){
   // load plugins
   [
-    'grunt-contrib-copy',
     'grunt-json-minify',
     'grunt-contrib-uglify',
     'grunt-contrib-cssmin',
-    'grunt-encode-css-images',
-    'grunt-hashres',
     'grunt-processhtml',
+    'grunt-hashres',
     'grunt-cdn',
   ].forEach(function(task){
     grunt.loadNpmTasks(task);
@@ -15,47 +13,37 @@ module.exports = function(grunt){
 
   // configure plugins
   grunt.initConfig({
-    copy: {
-      main: {
-        files: [
-          { expand: true, cwd: 'src/public/favicon', src: '**', dest: 'dist/favicon' },
-          { expand: true, cwd: 'src/public/json', src: '**', dest: 'dist/json' },
-          { expand: true, cwd: 'src/public/img', src: '**', dest: 'dist/img' },
-          { expand: true, cwd: 'src/views', src: '**', dest: 'dist/views' }
-        ]
-      }
-    },
     'json-minify': {
       build: {
-        files: 'dist/json/**/*.json'
+        files: '_site/json/**/*.json'
       }
     },
     uglify: {
       all: {
         files: {
-          'dist/js/home-layout.min.js': [
-            'src/vendor/jquery/jquery.js',
-            'src/vendor/bootstrap/js/bootstrap.js'
+          '_site/js/home-layout.min.js': [
+            '_site/jquery/jquery.js',
+            '_site/bootstrap/js/bootstrap.js'
           ],
-          'dist/js/main-layout.min.js': [
-            'src/vendor/jquery/jquery.js',
-            'src/vendor/bootstrap/js/bootstrap.js',
-            'src/vendor/spin/spin.js',
-            'src/vendor/d3/d3.js',
-            'src/vendor/d3-tip/d3-tip.js'
+          '_site/js/main-layout.min.js': [
+            '_site/jquery/jquery.js',
+            '_site/bootstrap/js/bootstrap.js',
+            '_site/spin/spin.js',
+            '_site/d3/d3.js',
+            '_site/d3-tip/d3-tip.js'
           ],
-          'dist/js/nba-salaries.min.js': [
-            'src/public/js/nba-salaries.js'
+          '_site/js/nba-salaries.min.js': [
+            '_site/js/nba-salaries.js'
           ],
-          'dist/js/wilco-shows.min.js': [
-            'src/vendor/knockout/knockout.js',
-            'src/vendor/moment/moment.js',
-            'src/public/js/wilco-shows.js'
+          '_site/js/wilco-shows.min.js': [
+            '_site/knockout/knockout.js',
+            '_site/moment/moment.js',
+            '_site/js/wilco-shows.js'
           ],
-          'dist/js/box-office.min.js': [
-            'src/vendor/d3-format/d3-format.js',
-            'src/vendor/moment/moment.js',
-            'src/public/js/box-office.js'
+          '_site/js/box-office.min.js': [
+            '_site/d3-format/d3-format.js',
+            '_site/moment/moment.js',
+            '_site/js/box-office.js'
           ]
         }
       }
@@ -63,48 +51,34 @@ module.exports = function(grunt){
     cssmin: {
       target: {
         files: {
-          'dist/css/home-layout.min.css': [
-            'src/vendor/bootstrap/css/bootstrap.css',
-            'src/public/css/home-layout.css'
+          '_site/css/home-layout.min.css': [
+            '_site/bootstrap/css/bootstrap.css',
+            '_site/css/home-layout.css'
           ],
-          'dist/css/main-layout.min.css': [
-            'src/vendor/bootstrap/css/bootstrap.css',
-            'src/public/css/main-layout.css',
-            'src/public/css/visualizations.css'
+          '_site/css/main-layout.min.css': [
+            '_site/bootstrap/css/bootstrap.css',
+            '_site/css/main-layout.css',
+            '_site/css/visualizations.css'
           ],
-          'dist/css/nba-salaries.min.css': [
-            'src/public/css/nba-salaries.css'
+          '_site/css/nba-salaries.min.css': [
+            '_site/css/nba-salaries.css'
           ],
-          'dist/css/wilco-shows.min.css': [
-            'src/public/css/wilco-shows.css'
+          '_site/css/wilco-shows.min.css': [
+            '_site/css/wilco-shows.css'
           ],
-          'dist/css/box-office.min.css': [
-            'src/public/css/box-office.css'
+          '_site/css/box-office.min.css': [
+            '_site/css/box-office.css'
           ]
         }
       }
     },
-    'encode-css-images': {
-      options: {
-        imageDir: 'dist/'
-      },
-      target: {
-        files: [{
-          expand: true,
-          cwd: 'dist/css/',
-          src: '**/*.min.css',
-          dest: 'dist/css/'
-        }]
-     }
-    },
     processhtml: {
       target: {
         files: {
-          'dist/views/home-layout.html': ['dist/views/home-layout.html'],
-          'dist/views/main-layout.html': ['dist/views/main-layout.html'],
-          'dist/views/visualizations/nba-salaries.html': ['dist/views/visualizations/nba-salaries.html'],
-          'dist/views/visualizations/wilco-shows.html': ['dist/views/visualizations/wilco-shows.html'],
-          'dist/views/visualizations/box-office.html': ['dist/views/visualizations/box-office.html']
+          '_site/index.html': ['_site/index.html'],
+          '_site/visualizations/nba-salaries/index.html': ['_site/visualizations/nba-salaries/index.html'],
+          '_site/visualizations/wilco-shows/index.html': ['_site/visualizations/wilco-shows/index.html'],
+          '_site/visualizations/box-office/index.html': ['_site/visualizations/box-office/index.html']
         }
       },
     },
@@ -114,23 +88,22 @@ module.exports = function(grunt){
       },
       all: {
         src: [
-          'dist/js/home-layout.min.js',
-          'dist/js/main-layout.min.js',
-          'dist/js/nba-salaries.min.js',
-          'dist/js/wilco-shows.min.js',
-          'dist/js/box-office.min.js',
-          'dist/css/home-layout.min.css',
-          'dist/css/main-layout.min.css',
-          'dist/css/nba-salaries.min.css',
-          'dist/css/wilco-shows.min.css',
-          'dist/css/box-office.min.css'
+          '_site/js/home-layout.min.js',
+          '_site/js/main-layout.min.js',
+          '_site/js/nba-salaries.min.js',
+          '_site/js/wilco-shows.min.js',
+          '_site/js/box-office.min.js',
+          '_site/css/home-layout.min.css',
+          '_site/css/main-layout.min.css',
+          '_site/css/nba-salaries.min.css',
+          '_site/css/wilco-shows.min.css',
+          '_site/css/box-office.min.css'
         ],
         dest: [
-          'dist/views/home-layout.html',
-          'dist/views/main-layout.html',
-          'dist/views/visualizations/nba-salaries.html',
-          'dist/views/visualizations/wilco-shows.html',
-          'dist/views/visualizations/box-office.html'
+          '_site/index.html',
+          '_site/visualizations/nba-salaries/index.html',
+          '_site/visualizations/wilco-shows/index.html',
+          '_site/visualizations/box-office/index.html'
         ]
       },
     },
@@ -139,14 +112,14 @@ module.exports = function(grunt){
         cdn: 'https://d2gkkp7311831a.cloudfront.net',
       },
       dist: {
-        cwd: 'dist/',
-        dest: 'dist/',
+        cwd: '_site/',
+        dest: '_site/',
         src: ['**/*.css', '**/*.html']
       }
     },
-  });	
+  });
 
   // register tasks
   grunt.registerTask('default', []);
-  grunt.registerTask('assets', ['copy', 'json-minify', 'uglify', 'cssmin', 'processhtml', 'hashres', 'cdn']);
+  grunt.registerTask('assets', ['json-minify', 'uglify', 'cssmin', 'processhtml', 'hashres', 'cdn']);
 };

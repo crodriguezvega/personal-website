@@ -1,4 +1,8 @@
-{% extends '../main-layout.html' %}
+---
+title: "Wilco's Shows"
+permalink: /visualizations/wilco-shows/index.html
+---
+{% extends "main-layout.njk" %}
 
 {% block title %}{{ title }}{% endblock %}
 
@@ -63,7 +67,7 @@
                         <div data-bind="style: { backgroundColor: color }" style="width:10px; height:10px"></div>
                       </div>
                       <div style="display:table-cell; vertical-align:middle; width:100%" data-bind="text: name">
-                      </div>              
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -99,8 +103,8 @@
                       <td data-bind="text: count" style="text-align: center"></td>
                     </tr>
                   </tbody>
-                </table>      
-              </div>  
+                </table>
+              </div>
             </article>
           </div>
         </div>
@@ -110,7 +114,7 @@
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 graph-section hide">
     <div class="graph"></div>
   </div>
-</div>  
+</div>
 {% endblock %}
 
 {% block scripts %}
@@ -148,7 +152,7 @@
   </script>
 
   <script>
-    var ASSETS_URL = "{{ assetsUrl }}";
+    var ASSETS_URL = "{{ site.assetsUrl }}";
   </script>
 
   <!-- build:js /js/wilco-shows.min.js -->
